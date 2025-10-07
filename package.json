@@ -1,0 +1,44 @@
+{
+  "name": "vidit-galav-portfolio",
+  "version": "1.0.0",
+  "description": "A stunning, animated portfolio website showcasing blockchain development expertise",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "live-server --port=8000 --open=/",
+    "build": "echo 'Static site - no build process needed'",
+    "deploy": "echo 'Deploy to your preferred hosting platform'"
+  },
+  "keywords": [
+    "portfolio",
+    "blockchain",
+    "developer",
+    "web3",
+    "ethereum",
+    "defi",
+    "smart-contracts",
+    "responsive",
+    "animated",
+    "gsap"
+  ],
+  "author": "Vidit Galav",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViditGalav/portfolio.git"
+  },
+  "homepage": "https://viditgalav.com",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
+
+

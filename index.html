@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidit Galav - Blockchain Developer & CTO</title>
+    <meta name="description" content="Vidit Galav - Blockchain Developer, CTO & Co-Founder at Limix AI. Expert in Ethereum, Solana, DeFi protocols, and smart contract development.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- JSON-LD Structured Data for Writing -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Vidit Galav",
+        "jobTitle": "Blockchain Developer & CTO",
+        "description": "Senior Blockchain Architect specializing in Web3, DeFi protocols, and smart contract development",
+        "url": "https://viditgalav.dev",
+        "sameAs": [
+            "https://medium.com/@ViditWeb3",
+            "https://github.com/ViditGalav",
+            "https://www.linkedin.com/in/viditweb3/"
+        ],
+        "knowsAbout": [
+            "Blockchain Development",
+            "Smart Contracts",
+            "DeFi Protocols",
+            "Web3",
+            "Zero-Knowledge Proofs",
+            "Cross-Chain Interoperability"
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Blockchain Developer",
+            "occupationLocation": {
+                "@type": "Place",
+                "name": "New Delhi, India"
+            }
+        }
+    }
+    </script>
+</head>
+    <body>
+                        <!-- Global Blockchain Animation Background -->
+                <div class="blockchain-background">
+                    <div class="blockchain-container">
+                        <!-- Enhanced Floating Blockchain Blocks -->
+                        <div class="floating-block block-1"></div>
+                        <div class="floating-block block-2"></div>
+                        <div class="floating-block block-3"></div>
+                        <div class="floating-block block-4"></div>
+                        <div class="floating-block block-5"></div>
+                        <div class="floating-block block-6"></div>
+                        <div class="floating-block block-7"></div>
+                        <div class="floating-block block-8"></div>
+                        
+                        <!-- Enhanced Connecting Lines -->
+                        <div class="connection-line line-1"></div>
+                        <div class="connection-line line-2"></div>
+                        <div class="connection-line line-3"></div>
+                        <div class="connection-line line-4"></div>
+                        <div class="connection-line line-5"></div>
+                        <div class="connection-line line-6"></div>
+                        <div class="connection-line line-7"></div>
+                        <div class="connection-line line-8"></div>
+                        
+                        <!-- Enhanced Data Particles -->
+                        <div class="data-particle particle-1"></div>
+                        <div class="data-particle particle-2"></div>
+                        <div class="data-particle particle-3"></div>
+                        <div class="data-particle particle-4"></div>
+                        <div class="data-particle particle-5"></div>
+                        <div class="data-particle particle-6"></div>
+                        <div class="data-particle particle-7"></div>
+                        <div class="data-particle particle-8"></div>
+                        <div class="data-particle particle-9"></div>
+                        <div class="data-particle particle-10"></div>
+                        
+                        <!-- New: Floating Hexagons -->
+                        <div class="floating-hexagon hex-1"></div>
+                        <div class="floating-hexagon hex-2"></div>
+                        <div class="floating-hexagon hex-3"></div>
+                        <div class="floating-hexagon hex-4"></div>
+                        <div class="floating-hexagon hex-5"></div>
+                        
+                        <!-- New: Rotating Rings -->
+                        <div class="rotating-ring ring-1"></div>
+                        <div class="rotating-ring ring-2"></div>
+                        <div class="rotating-ring ring-3"></div>
+                        <div class="rotating-ring ring-4"></div>
+                        <div class="rotating-ring ring-5"></div>
+                        
+                        <!-- New: Pulsing Circles -->
+                        <div class="pulsing-circle circle-1"></div>
+                        <div class="pulsing-circle circle-2"></div>
+                        <div class="pulsing-circle circle-3"></div>
+                        <div class="pulsing-circle circle-4"></div>
+                        <div class="pulsing-circle circle-5"></div>
+                        <div class="pulsing-circle circle-6"></div>
+                        
+                        <!-- New: Matrix Rain Effect -->
+                        <div class="matrix-rain rain-1">01</div>
+                        <div class="matrix-rain rain-2">10</div>
+                        <div class="matrix-rain rain-3">11</div>
+                        <div class="matrix-rain rain-4">00</div>
+                        <div class="matrix-rain rain-5">01</div>
+                        <div class="matrix-rain rain-6">10</div>
+                        <div class="matrix-rain rain-7">11</div>
+                        <div class="matrix-rain rain-8">00</div>
+                        <div class="matrix-rain rain-9">01</div>
+                        <div class="matrix-rain rain-10">10</div>
+                        
+                        <!-- New: Blockchain Code Snippets -->
+                        <div class="code-snippet ethereum-code">
+                            <div class="code-header">Ethereum</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">function</span> <span class="function">deploy</span>() {</span>
+                                <span class="code-line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="class">SmartContract</span>();</span>
+                                <span class="code-line">  <span class="comment">// ERC20 Token</span></span>
+                                <span class="code-line">  <span class="keyword">await</span> <span class="variable">token</span>.<span class="function">mint</span>();</span>
+                                <span class="code-line">}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet solana-code">
+                            <div class="code-header">Solana</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">pub</span> <span class="keyword">fn</span> <span class="function">initialize</span>() {</span>
+                                <span class="code-line">  <span class="keyword">let</span> <span class="variable">program</span> = <span class="class">Program</span>::<span class="function">new</span>();</span>
+                                <span class="code-line">  <span class="comment">// SPL Token</span></span>
+                                <span class="code-line">  <span class="variable">program</span>.<span class="function">deploy</span>();</span>
+                                <span class="code-line">}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet cardano-code">
+                            <div class="code-header">Cardano</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="comment">-- Aiken pseudo</span></span>
+                                <span class="code-line"><span class="keyword">validator</span> <span class="function">market_factory</span> (<span class="variable">datum</span>, <span class="variable">redeemer</span>, <span class="variable">ctx</span>) <span class="operator">=</span></span>
+                                <span class="code-line">  <span class="keyword">let</span> <span class="variable">tx</span> <span class="operator">=</span> <span class="class">tx_info</span> <span class="variable">ctx</span></span>
+                                <span class="code-line">  <span class="keyword">in</span> <span class="function">assert</span> (<span class="function">signed_by</span> <span class="variable">tx</span> <span class="variable">adminPkh</span>)</span>
+                                <span class="code-line">  <span class="operator">&&</span> <span class="function">outputs_contain</span> <span class="class">OutcomeToken</span></span>
+                                <span class="code-line"><span class="comment">-- UTxO based checks omitted</span></span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet haskell-code">
+                            <div class="code-header">Plutus (Haskell)</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">module</span> <span class="class">Escrow</span> <span class="keyword">where</span></span>
+                                <span class="code-line"><span class="keyword">{-#</span> <span class="comment">INLINABLE mkValidator</span> <span class="keyword">#-}</span></span>
+                                <span class="code-line"><span class="function">mkValidator</span> <span class="variable">datum</span> <span class="variable">redeemer</span> <span class="variable">ctx</span> <span class="operator">=</span></span>
+                                <span class="code-line">  <span class="function">traceIfFalse</span> <span class="string">"authorized resolver"</span> (<span class="function">txSignedBy</span> (<span class="function">scriptContextTxInfo</span> <span class="variable">ctx</span>) <span class="variable">resolverPkh</span>)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet polygon-code">
+                            <div class="code-header">Polygon</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">contract</span> <span class="class">DeFiProtocol</span> {</span>
+                                <span class="code-line">  <span class="keyword">function</span> <span class="function">swap</span>() <span class="keyword">external</span> {</span>
+                                <span class="code-line">    <span class="comment">// Layer 2</span></span>
+                                <span class="code-line">    <span class="variable">router</span>.<span class="function">execute</span>();</span>
+                                <span class="code-line">  }</span>
+                                <span class="code-line">}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet defi-code">
+                            <div class="code-header">DeFi</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="function">flashLoan</span>() {</span>
+                                <span class="code-line">  <span class="keyword">const</span> <span class="variable">loan</span> = <span class="keyword">await</span> <span class="class">Aave</span>.<span class="function">borrow</span>();</span>
+                                <span class="code-line">  <span class="comment">// Arbitrage</span></span>
+                                <span class="code-line">  <span class="keyword">await</span> <span class="function">executeTrade</span>();</span>
+                                <span class="code-line">}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet nft-code">
+                            <div class="code-header">NFT</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">function</span> <span class="function">mintNFT</span>() <span class="keyword">external</span> {</span>
+                                <span class="code-line">  <span class="keyword">uint256</span> <span class="variable">tokenId</span> = <span class="function">_tokenIdCounter</span>();</span>
+                                <span class="code-line">  <span class="comment">// Metadata</span></span>
+                                <span class="code-line">  <span class="function">_mint</span>(<span class="variable">msg.sender</span>, <span class="variable">tokenId</span>);</span>
+                                <span class="code-line">}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">VG</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#get-in-touch" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="particles"></canvas>
+            <div class="network-grid"></div>
+            <div class="geometric-shapes">
+                <div class="shape cube"></div>
+                <div class="shape prism"></div>
+                <div class="shape pyramid"></div>
+                <div class="shape sphere"></div>
+            </div>
+            <div class="glow-dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+                    <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <div class="rotating-titles">
+                        <div class="title-item active">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">Smart Contract Engineer</span>
+                            
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">dApp Builder</span>
+                            
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">Solidity Specialist</span>
+                           
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">DeFi Expert</span>
+                            
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">NFT Architect</span>
+                            
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">Web3 Enthusiast</span>
+                           
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role role-long">Blockchain Protocol Researcher</span>
+                            
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">Blockchain Architect</span>
+                            
+                        </div>
+                    </div>
+                </h1>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary" onclick="scrollToSection('projects')">
+                        <span class="btn-text">View Projects</span>
+                        <div class="btn-loader"></div>
+                    </a>
+                    <a href="#get-in-touch" class="btn btn-secondary" onclick="scrollToSection('get-in-touch')">
+                        <span class="btn-text">Get In Touch</span>
+                        <div class="btn-loader"></div>
+                    </a>
+                </div>
+                
+              
+                
+                <!-- Hero Stats -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">100+</div>
+                        <div class="stat-label">Tokenomics Deployed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="250">250+</div>
+                        <div class="stat-label">Smart Contracts</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="11">11+</div>
+                        <div class="stat-label">Blockchain Networks</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="95">95%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+                
+                <!-- Tech Stack Preview -->
+                <div class="tech-preview">
+                    <div class="tech-label">Technologies I Work With:</div>
+                    <div class="tech-icons">
+                        <div class="tech-icon" title="Ethereum">
+                            <i class="fab fa-ethereum"></i>
+                        </div>
+                        <div class="tech-icon" title="Solana">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="tech-icon" title="Polygon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="tech-icon" title="Solidity">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="tech-icon" title="Rust">
+                            <i class="fab fa-rust"></i>
+                        </div>
+                        <div class="tech-icon" title="DeFi">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Brand Name on Right Top -->
+                <div class="brand-name">
+                    <span class="brand-text">VIDIT GALAV</span>
+                    <div class="brand-glow"></div>
+                </div>
+                
+                <div class="futuristic-spinner"></div>
+                
+                <!-- 3D Blockchain Visualization -->
+                <div class="blockchain-visualization">
+                    <!-- Builder Ethos Panel (clean, non-overlapping) -->
+                    <div class="ethos-panel">
+                        <div class="ethos-header">
+                            <i class="fas fa-compass"></i>
+                            <span>Builder Ethos</span>
+                        </div>
+                        <div class="ethos-list">
+                            <div class="ethos-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Security-First</span>
+                            </div>
+                            <div class="ethos-item">
+                                <i class="fas fa-layer-group"></i>
+                                <span>Scalable by Design</span>
+                            </div>
+                            <div class="ethos-item">
+                                <i class="fas fa-heartbeat"></i>
+                                <span>Reliability & Uptime</span>
+                            </div>
+                            <div class="ethos-item">
+                                <i class="fas fa-flask"></i>
+                                <span>Research-Driven</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                        </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate blockchain developer driving innovation in DeFi and Web3</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I am a <strong>Senior Blockchain Architect</strong> with over <strong>5 years</strong> of experience spearheading the development of cutting-edge <strong>Web3</strong> ecosystems from concept to production. Currently serving as <strong>Lead Developer at Foreon Network</strong>, I specialize in architecting Cardano-native prediction markets and UTxO-based smart contracts. My expertise lies in end-to-end architecture, designing and implementing <strong>secure</strong>, <strong>scalable</strong> smart contracts and decentralized applications across multiple chains, including <strong>Ethereum</strong>, <strong>Cardano</strong>, <strong>Solana</strong>, and <strong>Layer 2</strong> solutions.
+                    </p>
+                    <p class="about-description">
+                        I have a proven track record of leading high-impact projects, such as engineering <strong>GoldPesa's $100M+</strong> token ecosystem with <strong>CertiK-audited</strong> security and <strong>AI-driven DeFi</strong> mechanics. Architecting a first-of-its-kind <strong>Cardano-native prediction market</strong> for <strong>Foreon Network</strong> and My work spans the full stack—from low-level <strong>UTxO</strong> model design and <strong>on-chain order books</strong> to <strong>gas-optimized Solidity/Rust</strong> contracts and seamless user-facing <strong>dApps</strong>.
+                    </p>
+                    <p class="about-description">
+                        As a <strong>technical leader</strong> , I drive innovation by leveraging advanced tooling and <strong>cross-chain interoperability</strong> to solve complex challenges in <strong>DeFi</strong>, <strong>NFT infrastructure</strong>, and <strong>real-world asset tokenization</strong>. I am passionate about building the future of decentralized systems and am always open to connecting about groundbreaking opportunities.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-rocket"></i>
+                            <span>Lead Web3 Architect at Foreon Network</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-gem"></i>
+                            <span>Lead Engineer at GoldPesa-Whitebeard, Dubai</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-brain"></i>
+                            <span>CTO & Co-Founder at Limix AI</span>
+                        </div>
+                        
+                        <div class="highlight">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>B.Tech from IIIT Ranchi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Vidit Galav</h3>
+                            <p>Blockchain Developer & CTO</p>
+                            <div class="profile-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>New Delhi, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey in blockchain and technology</p>
+            </div>
+            <div class="timeline">
+                                <div class="timeline-item foreon-item">
+                    <div class="timeline-marker foreon-marker"></div>
+                    <div class="timeline-content foreon-content">
+                        <div class="timeline-header">
+                            <div class="role-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3>Senior Blockchain Architect</h3>
+                            <span class="company">Foreon Network (Contract)</span>
+                            <span class="duration">Sep 2025 – Present</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li><strong>Spearheaded</strong> the end-to-end architecture and development of a first-of-its-kind <strong>Cardano-native prediction market</strong>, from initial product research and whiteboard design to production-ready <strong>on-chain/off-chain systems</strong>.</li>
+                            <li><strong>Architected & implemented</strong> the core on-chain ecosystem using <strong>Aiken/Plutus</strong>, including <strong>MarketFactory</strong>, <strong>Escrow/Treasury validators</strong>, and <strong>OutcomeToken policies</strong>, establishing a secure <strong>UTxO-based</strong> foundation for market lifecycle management.</li>
+                            <li><strong>Pioneered trading mechanics</strong> for the <strong>UTxO model</strong>, designing and building <strong>limit/market orders</strong> and an <strong>on-chain order book</strong> with <strong>partial fills</strong> to enable low-latency, non-custodial trading.</li>
+                            <li><strong>Engineered</strong> a robust <strong>oracle resolution</strong> and <strong>dispute framework</strong> with <strong>authorized resolvers</strong> and <strong>time-bound dispute windows</strong>, ensuring verifiable and provably fair market outcomes.</li>
+                            <li><strong>Led full-stack delivery</strong> by building off-chain services—<strong>transaction builders</strong>, <strong>event watchers</strong>, and <strong>deployment tooling</strong>—to seamlessly orchestrate on-chain interactions and user onboarding.</li>
+                            <li><strong>Ensured enterprise-grade security</strong> and reliability through comprehensive <strong>unit/integration testing</strong>, <strong>admin controls</strong> for pausing and upgrades, and by <strong>refactoring legacy Plutus code</strong> for stability.</li>
+                        </ul>
+                        <div class="tech-stack foreon-tech">
+                            <span class="tech">Cardano</span>
+                            <span class="tech">Aiken</span>
+                            <span class="tech">Plutus</span>
+                            <span class="tech">UTxO</span>
+                            <span class="tech">On-chain Orderbook</span>
+                            <span class="tech">Limit/Market Orders</span>
+                            <span class="tech">Oracle</span>
+                            <span class="tech">Dispute Resolution</span>
+                            <span class="tech">Off-chain Services</span>
+                            <span class="tech">Testing</span>
+                            <span class="tech">Security</span>
+                        </div>
+                    </div>
+                </div>
+                                 <div class="timeline-item goldpesa-item">
+                     <div class="timeline-marker goldpesa-marker"></div>
+                     <div class="timeline-content goldpesa-content">
+                         <div class="timeline-header">
+                             <div class="role-icon">
+                                 <i class="fas fa-crown"></i>
+                             </div>
+                             <h3>Blockchain Developer</h3>
+                             <span class="company">GoldPesa-Whitebeard, Dubai (Remote)</span>
+                             <span class="duration">Full-Time</span>
+                             <div class="role-stats">
+                                 <span class="stat">100M+ GPX Tokens</span>
+                                 <span class="stat">$0 Slippage</span>
+                                 <span class="stat">CertiK Audited</span>
+                             </div>
+                         </div>
+                         <ul class="timeline-achievements">
+                             <li><strong>Lead Engineer</strong> of GoldPesa's decentralized ecosystem, designing Uniswap V4 liquidity hooks and immutable smart contracts to govern 100M GPX tokens, ensuring censorship-resistant, ownerless protocols with permanently locked liquidity</li>
+                             <li><strong>Pioneered AI-integrated DeFi mechanics</strong>, embedding the Pawn algorithm into smart contracts to drive real earnings via forex marketmaking, fueling GPX's buy-and-recirculate model for sustainable value appreciation</li>
+                             <li><strong>Engineered GoldPesa's core protocol (Base L2)</strong> with CertiK-audited security, deploying advanced tokenomics (demand-driven supply, 1% transaction fee model) and staking mechanisms (GoldPesa Mine) to optimize liquidity and scalability</li>
+                             <li><strong>Spearheaded R&D</strong> for institutional-grade solutions (GPO options) to enable large-scale participation without market disruption, enhancing ecosystem resilience</li>
+                             <li><strong>Launched trustless infrastructure</strong> via autonomous smart contracts, eliminating intermediaries and establishing GoldPesa as a globally compliant digital gold standard with $0 slippage and tamper-proof liquidity pools</li>
+                             <li><strong>Designed and built Pump MarketCap project</strong> that automates token creation via a token factory, deploying hooks and pump mechanisms to dynamically adjust liquidity for secure token launches</li>
+                             <li><strong>Enabled influencers</strong> to launch personal tokens for social engagement and marketing, leveraging the pumping functionality to amplify social media interactions and drive token-based campaigns</li>
+                         </ul>
+                         <div class="tech-stack">
+                             <span class="tech">Uniswap V4</span>
+                             <span class="tech">Base L2</span>
+                             <span class="tech">CertiK</span>
+                             <span class="tech">AI DeFi</span>
+                             <span class="tech">Tokenomics</span>
+                         </div>
+                     </div>
+                 </div>
+
+                                 <div class="timeline-item limix-item">
+                     <div class="timeline-marker limix-marker"></div>
+                     <div class="timeline-content limix-content">
+                         <div class="timeline-header">
+                             <div class="role-icon">
+                                 <i class="fas fa-robot"></i>
+                             </div>
+                             <h3>CTO & Co-Founder</h3>
+                             <span class="company">Limix AI</span>
+                             <span class="duration">2024 - Present</span>
+                             <div class="role-stats">
+                                 <span class="stat">40% Faster Development</span>
+                                 <span class="stat">AI-Powered IDE</span>
+                                 <span class="stat">Cross-Chain</span>
+                             </div>
+                         </div>
+                         <ul class="timeline-achievements">
+                             <li><strong>Architected Limix AI</strong>, an AI-powered smart contract IDE for Solana chain, reducing development time by 40% through AI-driven code generation, real-time error detection, and automated testing</li>
+                             <li><strong>Led technical vision</strong> for cross-chain compatibility (Solana, Ethereum, Polygon), integrating syntax highlighting for Rust/Solana, one-click deployment, and audited security protocols</li>
+                             <li><strong>Spearheaded MVP development</strong>, prioritizing core features: AI-assisted code completion, gas-optimized contract templates, and mock data generation for testing, achieving fastest build times for Solana programs</li>
+                             <li><strong>Scaled engineering team</strong> to deliver Phase 1 MVP (editor, build system, local validator deployment) ahead of schedule</li>
+                         </ul>
+                         <div class="tech-stack">
+                             <span class="tech">AI/ML</span>
+                             <span class="tech">Solana</span>
+                             <span class="tech">Rust</span>
+                             <span class="tech">IDE Development</span>
+                             <span class="tech">Cross-Chain</span>
+                         </div>
+                     </div>
+                 </div>
+
+                     
+
+                                 <div class="timeline-item contract-item">
+                     <div class="timeline-marker contract-marker"></div>
+                     <div class="timeline-content contract-content">
+                         <div class="timeline-header">
+                             <div class="role-icon">
+                                 <i class="fas fa-globe"></i>
+                             </div>
+                             <h3>Blockchain Developer</h3>
+                             <span class="company">Contract based Global Projects</span>
+                             <span class="duration">Dec 2022 - Dec 2024</span>
+                             <div class="role-stats">
+                                 <span class="stat">Casinc Project</span>
+                                 <span class="stat">DEX Platforms</span>
+                                 <span class="stat">NFT Collateral</span>
+                             </div>
+                         </div>
+                         <ul class="timeline-achievements">
+                             <li><strong>Casinc Project (Argentina-based)</strong>: Architected and developed a two-contract system on Solana for Casinc, comprising a Casinc Contract for managing deposits, bets, winnings, and withdrawals, and an Admin Contract for multisig governance, game parameter management, and user privileges. Utilized SPL Token Program, PDAs, and multisig frameworks to ensure secure, efficient operations. Integrated randomness via VRF for fair gameplay and optimized on-chain storage using the Anchor framework. Deployed and rigorously tested on Solana devnet.</li>
+                             <li><strong>DEX & Tradingview Platforms</strong>: Contributed to backend services for real-time trading data, multi-chain integration, and blockchain security, enabling smooth execution of token swaps and liquidity pool interactions.</li>
+                             <li><strong>Smart Contract Developer (StreamNFT)</strong>: Blockchain Developer specialized in Solana and Ethereum. Building Web3.0 based cutting-edge protocols for Staking, Rent, and Loan, utilizing NFTs as collateral to revolutionize decentralized finance. Focused on optimizing gas costs and ensuring contract security through testing and robust architecture.</li>
+                             <li><strong>Senior smart contract developer</strong> to ERC-7066, enabling lockable NFTs that remain in self-custody while restricting transfers, enhancing safety, utility, and liquidity without compromising ownership.</li>
+                         </ul>
+                         <div class="tech-stack">
+                             <span class="tech">Solana</span>
+                             <span class="tech">Anchor</span>
+                             <span class="tech">SPL Tokens</span>
+                             <span class="tech">VRF</span>
+                             <span class="tech">ERC-7066</span>
+                         </div>
+                     </div>
+                 </div>
+
+                 <!-- Additional Experiences -->
+                 <div class="timeline-item bitcoin-item">
+                     <div class="timeline-marker bitcoin-marker"></div>
+                     <div class="timeline-content bitcoin-content">
+                         <div class="timeline-header">
+                             <div class="role-icon">
+                                 <i class="fab fa-bitcoin"></i>
+                             </div>
+                             <h3>Bitcoin Talents Program</h3>
+                             <span class="company">Frankfurt School Blockchain Centre</span>
+                             <span class="duration">January 2023 – May 2023</span>
+                             <div class="role-stats">
+                                 <span class="stat">Top 100 Global</span>
+                                 <span class="stat">Lightning Network</span>
+                                 <span class="stat">Open Source</span>
+                             </div>
+                         </div>
+                         <ul class="timeline-achievements">
+                             <li><strong>Selected among top 100 talented Bitcoin enthusiasts</strong> globally for an 18-week mentoring program offered by Frankfurt School Blockchain Centre</li>
+                             <li><strong>Worked on Bitcoin open-source projects</strong>, Lightning Network applications & protocols emphasizing security and scalability</li>
+                             <li><strong>Developed expertise</strong> in Bitcoin protocol development, Lightning Network integration, and blockchain security best practices</li>
+                         </ul>
+                         <div class="tech-stack">
+                             <span class="tech">Bitcoin</span>
+                             <span class="tech">Lightning Network</span>
+                             <span class="tech">Open Source</span>
+                             <span class="tech">Protocol Development</span>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class="timeline-item defi-item">
+                     <div class="timeline-marker defi-marker"></div>
+                     <div class="timeline-content defi-content">
+                         <div class="timeline-header">
+                             <div class="role-icon">
+                                 <i class="fas fa-chart-line"></i>
+                             </div>
+                             <h3>DeFi Talent Program</h3>
+                             <span class="company">Frankfurt School Blockchain Centre</span>
+                             <span class="duration">April 2023 - July 2023</span>
+                             <div class="role-stats">
+                                 <span class="stat">DeFi Protocols</span>
+                                 <span class="stat">Tokenomics</span>
+                                 <span class="stat">Cross-Chain</span>
+                             </div>
+                         </div>
+                         <ul class="timeline-achievements">
+                             <li><strong>Mentee in 18-week DeFi Talent program</strong> initiated by FSBC, gained in-depth expertise in DeFi protocols, tokenomics, and decentralized applications</li>
+                             <li><strong>Advanced DeFi concepts</strong> including liquidity pools, yield farming, staking mechanisms, and tokenization frameworks</li>
+                             <li><strong>Innovative use cases</strong> in decentralized governance, AMMs, and cross-chain interoperability to design scalable DeFi solutions</li>
+                         </ul>
+                         <div class="tech-stack">
+                             <span class="tech">DeFi Protocols</span>
+                             <span class="tech">Tokenomics</span>
+                             <span class="tech">AMMs</span>
+                             <span class="tech">Yield Farming</span>
+                             <span class="tech">Governance</span>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Education</h2>
+                <p class="section-subtitle">Professional certifications and academic achievements</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card ethereum-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Ethereum Developer Degree</h3>
+                    <p>LearnWeb3 - Grandmaster Rank</p>
+                    <span class="cert-badge">Expert Level</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card education-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>B. Tech. Electronics & Communication</h3>
+                    <p>Indian Institute of Information Technology Ranchi</p>
+                    <span class="cert-badge">Degree</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/education/" target="_blank" class="cert-link-btn">View Education</a>
+                    </div>
+                </div>
+
+                <div class="cert-card solana-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Solana DApp Developer</h3>
+                    <p>Solana Foundation</p>
+                    <span class="cert-badge">Advanced</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card polygon-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Blockchain on Polygon Edge</h3>
+                    <p>Polygon - Layer 2 Solutions</p>
+                    <span class="cert-badge">Advanced</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card vrf-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-dice"></i>
+                    </div>
+                    <h3>Advanced VRF v2 Expert</h3>
+                    <p>Chainlink - Random Number Generation</p>
+                    <span class="cert-badge">Expert</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card graph-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Curator (Graph Protocol)</h3>
+                    <p>The Graph - Indexing & Querying</p>
+                    <span class="cert-badge">Professional</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card icp-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Internet Computer Protocol</h3>
+                    <p>DFINITY Foundation</p>
+                    <span class="cert-badge">Advanced</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card wallet-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Account Abstraction Wallet</h3>
+                    <p>ERC-4337 Implementation</p>
+                    <span class="cert-badge">Expert</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card flow-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-stream"></i>
+                    </div>
+                    <h3>Flow Blockchain</h3>
+                    <p>Dapper Labs - Cadence Language</p>
+                    <span class="cert-badge">Advanced</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card lens-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Lens Protocol</h3>
+                    <p>Decentralized Social Media</p>
+                    <span class="cert-badge">Professional</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card polkadot-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-circle-nodes"></i>
+                    </div>
+                    <h3>Developer on Polkadot</h3>
+                    <p>Polkadot Network - Substrate</p>
+                    <span class="cert-badge">Advanced</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card certik-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>CertiK Security Certification</h3>
+                    <p>CertiK - Smart Contract Security</p>
+                    <span class="cert-badge">Expert</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card chainlink-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Chainlink Developer Certification</h3>
+                    <p>Chainlink - Oracle Networks</p>
+                    <span class="cert-badge">Advanced</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card polygon-dev-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Polygon Developer Certification</h3>
+                    <p>Polygon - Layer 2 Development</p>
+                    <span class="cert-badge">Advanced</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card bitcoin-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-bitcoin"></i>
+                    </div>
+                    <h3>Bitcoin Talents Program</h3>
+                    <p>Frankfurt School Blockchain Centre</p>
+                    <span class="cert-badge">Professional</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <div class="cert-card defi-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>DeFi Talent Program</h3>
+                    <p>Frankfurt School Blockchain Centre</p>
+                    <span class="cert-badge">Professional</span>
+                    <div class="cert-link">
+                        <a href="https://www.linkedin.com/in/viditweb3/details/certifications/" target="_blank" class="cert-link-btn">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcase of my blockchain and DeFi projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card goldpesa-card">
+                    <div class="project-image">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>GoldPesa Protocol</h3>
+                        <p>Comprehensive DeFi ecosystem featuring <strong>GPO (GoldPesa Option)</strong> with deep liquidity for institutional trading ($5K-$10M), <strong>GPX (GoldPesa Token)</strong> with 1% transfer fees distributed to Mines, Pawn, and Treasury. Includes <strong>GoldPesa Vault</strong> for 1:1 GPO-to-GPX conversion, <strong>GoldPesa Mines</strong> staking game with USDC rewards, and <strong>Pawn Contract</strong> for automated buy-and-redistribute mechanics. Built on Base L2 with Uniswap V4 integration and CertiK-audited security.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Uniswap V4</span>
+                            <span class="tech-tag">Base L2</span>
+                            <span class="tech-tag">CertiK Audited</span>
+                            <span class="tech-tag">AI DeFi</span>
+                            <span class="tech-tag">Tokenomics</span>
+                            <span class="tech-tag">Staking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://goldpesa.com/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                GoldPesa
+                            </a>
+                            <a href="https://pumpmarketcap.com/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Pump MarketCap
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card foreon-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Foreon Network</h3>
+                        <p>Cardano-native prediction market platform featuring UTxO-based smart contracts and on-chain order books. Built with Aiken and Plutus for efficient transaction handling and decentralized market creation. Enables users to create and participate in prediction markets with transparent, verifiable outcomes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Cardano</span>
+                            <span class="tech-tag">UTxO Model</span>
+                            <span class="tech-tag">Aiken</span>
+                            <span class="tech-tag">Plutus</span>
+                            <span class="tech-tag">Prediction Markets</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://testnet.foreon.network/markets" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Testnet Markets
+                            </a>
+                            <div class="project-metric">
+                                <span class="metric">Cardano Native</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card luckify-card">
+                    <div class="project-image">
+                        <i class="fas fa-dice"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Luckify</h3>
+                        <p>Trustless gaming platform powered by Chainlink VRF for provably fair outcomes. Built with advanced cryptographic randomness to ensure transparent and verifiable game results, revolutionizing the gaming industry with blockchain-based fairness guarantees.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Chainlink VRF</span>
+                            <span class="tech-tag">Smart Contracts</span>
+                            <span class="tech-tag">Provably Fair</span>
+                            <span class="tech-tag">Gaming</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://luckify.co" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit Platform
+                            </a>
+                            <div class="project-metric">
+                                <span class="metric">100% Fair</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card cryptovault-card">
+                    <div class="project-image">
+                        <i class="fas fa-vault"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>CryptoVault</h3>
+                        <p>Personal project: Advanced trading hub with comprehensive token launch tools, cutting-edge UI/UX design, and interactive animations. Features real-time market data, portfolio management, and seamless token deployment capabilities with an intuitive user interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Trading Hub</span>
+                            <span class="tech-tag">Token Launch</span>
+                            <span class="tech-tag">Advanced UI/UX</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://cryptovault-trading-app.vercel.app" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visit App
+                            </a>
+                            <div class="project-metric">
+                                <span class="metric">Live Platform</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Limix AI</h3>
+                        <p>AI-powered smart contract IDE for Solana chain, reducing development time by 40% through AI-driven code generation and real-time error detection.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Solana</span>
+                            <span class="tech-tag">IDE</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-link">
+                                <i class="fas fa-lock"></i>
+                                Private Project
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Showcase Section -->
+    <section id="portfolio-showcase" class="portfolio-showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Development Portfolio & Innovations</h2>
+                <p class="section-subtitle">Comprehensive collection of blockchain solutions and DeFi protocols</p>
+                    </div>
+            <div class="portfolio-showcase-grid">
+                <div class="portfolio-showcase-card">
+                    <div class="portfolio-header">
+                        <div class="portfolio-icon">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <h3>Multi-Protocol Development Suite</h3>
+                        <p>Four integrated blockchain solutions showcasing expertise across DeFi, Real Estate, Gaming, and Trading domains</p>
+                        </div>
+                    <div class="portfolio-projects">
+                        <div class="mini-project">
+                            <div class="mini-icon property-mini">
+                                <i class="fas fa-home"></i>
+                    </div>
+                            <div class="mini-content">
+                                <h4>Property Verse</h4>
+                                <p>Decentralized Real Estate tokenization platform enabling fractional property ownership through ERC20 tokens</p>
+                                <div class="mini-tech">
+                                    <span>Ethereum</span>
+                                    <span>ERC20</span>
+                                    <span>Tokenization</span>
+                </div>
+                                <a href="https://github.com/ViditGalav/RealEstate-Dev" class="mini-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="mini-project">
+                            <div class="mini-icon staker-mini">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <div class="mini-content">
+                                <h4>TokenStaker</h4>
+                                <p>Secure staking mechanism with 20% gas reduction through advanced storage optimization patterns</p>
+                                <div class="mini-tech">
+                                    <span>Solidity</span>
+                                    <span>DeFi</span>
+                                    <span>Staking</span>
+                                </div>
+                                <a href="https://github.com/ViditGalav/TokenStaker---Decentralized-Token-Staking-Platform" class="mini-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="mini-project">
+                            <div class="mini-icon nft-mini">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="mini-content">
+                                <h4>NFT Marketplace</h4>
+                                <p>Full-stack Ethereum NFT platform with 30% cost reduction and OpenZeppelin security integration</p>
+                                <div class="mini-tech">
+                                    <span>ERC-721</span>
+                                    <span>OpenZeppelin</span>
+                                    <span>Gas Optimization</span>
+                                </div>
+                                <a href="https://github.com/ViditGalav/NFTMarketplace-A-Decentralized-NFT-Marketplace-on-Ethereum" class="mini-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="mini-project">
+                            <div class="mini-icon arbitrage-mini">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <div class="mini-content">
+                                <h4>Flash Loan Arbitrage</h4>
+                                <p>BSC arbitrage strategy leveraging PancakeSwap flash loans with secure trading logic and reentrancy protection</p>
+                                <div class="mini-tech">
+                                    <span>BSC</span>
+                                    <span>PancakeSwap</span>
+                                    <span>Flash Loans</span>
+                                </div>
+                                <a href="https://github.com/ViditGalav/Flashloan-Arbitrage" class="mini-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-metrics">
+                        <div class="metric-item">
+                            <span class="metric-number">4</span>
+                            <span class="metric-label">Complete Projects</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-number">50%</span>
+                            <span class="metric-label">Avg. Gas Reduction</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-number">100%</span>
+                            <span class="metric-label">Open Source</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Writing Section -->
+    <section id="featured-writing" class="featured-writing">
+        <div class="container">
+            <div class="writing-hero">
+                <div class="writing-icon">
+                    <i class="fab fa-medium-m"></i>
+                </div>
+                <h2 class="writing-title">
+                    <span class="title-main">Technical Writing & Community Contributions</span>
+                    <span class="title-sub">Deep dives, tutorials, and practical guides on Web3</span>
+                </h2>
+                <div class="writing-badges">
+                    <span class="badge badge-primary">Web3 Author</span>
+                    <span class="badge badge-secondary">Since 2022</span>
+                    <span class="badge badge-accent">On-Chain Native</span>
+                </div>
+                <p class="writing-description">
+                    <strong>Bridging Research & Implementation</strong> — I craft in-depth technical articles that transform cutting-edge blockchain research into actionable engineering insights. From zero-knowledge proofs and DeFi protocol design to smart contract security and cross-chain interoperability, my writing empowers developers to build safer, more scalable decentralized systems.
+                </p>
+                <div class="writing-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Deep-Dive Articles</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">700+</span>
+                        <span class="stat-label">Developer Reads</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Blockchain Domains</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="compact-articles-carousel" aria-label="Top articles" role="region">
+                <button class="compact-nav prev" aria-label="Previous">‹</button>
+                <div class="compact-track" id="compactArticlesTrack">
+                    <!-- Top 5-6 articles will be populated by JavaScript -->
+                </div>
+                <button class="compact-nav next" aria-label="Next">›</button>
+            </div>
+
+            <div class="writing-footer-cta">
+                <a href="https://medium.com/@ViditWeb3?utm_source=portfolio&utm_medium=website&utm_campaign=writing" class="btn-medium" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-medium-m"></i>
+                    <span>Explore All Articles on Medium</span>
+                    <div class="btn-arrow">→</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blockchain Networks Section -->
+    <section id="blockchains" class="blockchains">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Blockchain Networks & Specializations</h2>
+                <p class="section-subtitle">My expertise across multiple blockchain ecosystems and protocols</p>
+            </div>
+            <div class="blockchains-grid">
+                <div class="chain-card ethereum-chain">
+                    <div class="chain-icon">
+                        <i class="fab fa-ethereum"></i>
+                    </div>
+                    <h3>Ethereum</h3>
+                    <p>Smart Contracts, DeFi Protocols, ERC Standards</p>
+                    <div class="chain-specs">
+                        <span class="spec">Solidity</span>
+                        <span class="spec">ERC-20/721/1155</span>
+                        <span class="spec">DeFi</span>
+                    </div>
+                </div>
+
+                <div class="chain-card solana-chain">
+                    <div class="chain-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Solana</h3>
+                    <p>High-Performance Blockchain, dApps, DeFi</p>
+                    <div class="chain-specs">
+                        <span class="spec">Rust</span>
+                        <span class="spec">Anchor</span>
+                        <span class="spec">SPL Tokens</span>
+                    </div>
+                </div>
+
+                <div class="chain-card cardano-chain">
+                    <div class="chain-icon">
+                        <i class="fas fa-dharmachakra"></i>
+                    </div>
+                    <h3>Cardano</h3>
+                    <p>UTxO-based smart contracts, on-chain orderbooks, oracles</p>
+                    <div class="chain-specs">
+                        <span class="spec">Aiken</span>
+                        <span class="spec">Plutus</span>
+                        <span class="spec">UTxO</span>
+                    </div>
+                </div>
+
+                <div class="chain-card polygon-chain">
+                    <div class="chain-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Polygon</h3>
+                    <p>Layer 2 Scaling, Low-Cost Transactions</p>
+                    <div class="chain-specs">
+                        <span class="spec">Matic</span>
+                        <span class="spec">Plasma</span>
+                        <span class="spec">PoS</span>
+                    </div>
+                </div>
+
+                <div class="chain-card bsc-chain">
+                    <div class="chain-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Binance Smart Chain</h3>
+                    <p>DeFi, DEX, Yield Farming</p>
+                    <div class="chain-specs">
+                        <span class="spec">BEP-20</span>
+                        <span class="spec">PancakeSwap</span>
+                        <span class="spec">Yield Farming</span>
+                    </div>
+                </div>
+
+                <div class="chain-card bitcoin-chain">
+                    <div class="chain-icon">
+                        <i class="fab fa-bitcoin"></i>
+                    </div>
+                    <h3>Bitcoin</h3>
+                    <p>Lightning Network, Open Source</p>
+                    <div class="chain-specs">
+                        <span class="spec">Lightning</span>
+                        <span class="spec">Open Source</span>
+                        <span class="spec">Protocol</span>
+                    </div>
+                </div>
+
+                <div class="chain-card polkadot-chain">
+                    <div class="chain-icon">
+                        <i class="fas fa-circle-nodes"></i>
+                    </div>
+                    <h3>Polkadot</h3>
+                    <p>Cross-Chain Interoperability</p>
+                    <div class="chain-specs">
+                        <span class="spec">Substrate</span>
+                        <span class="spec">Parachains</span>
+                        <span class="spec">XCM</span>
+                    </div>
+                </div>
+
+                <div class="chain-card flow-chain">
+                    <div class="chain-icon">
+                        <i class="fas fa-stream"></i>
+                    </div>
+                    <h3>Flow</h3>
+                    <p>NFTs, Gaming, Cadence Language</p>
+                    <div class="chain-specs">
+                        <span class="spec">Cadence</span>
+                        <span class="spec">NFTs</span>
+                        <span class="spec">Gaming</span>
+                    </div>
+                </div>
+
+                <div class="chain-card icp-chain">
+                    <div class="chain-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Internet Computer</h3>
+                    <p>Web3 Infrastructure, Canisters</p>
+                    <div class="chain-specs">
+                        <span class="spec">Motoko</span>
+                        <span class="spec">Canisters</span>
+                        <span class="spec">Web3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">My technical expertise across blockchain and development</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Blockchain Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-ethereum"></i>
+                            </div>
+                            <span class="skill-name">Ethereum</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <span class="skill-name">Solana</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-circle-nodes"></i>
+                            </div>
+                            <span class="skill-name">Cardano</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <span class="skill-name">Layer 2 Solutions</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span class="skill-name">NFTs</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <span class="skill-name">DeFi Protocols</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-file-contract"></i>
+                            </div>
+                            <span class="skill-name">Smart Contracts</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <span class="skill-name">Hyperledger</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="skill-name">zk-SNARKs</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">Solidity</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-crab"></i>
+                            </div>
+                            <span class="skill-name">Rust</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">Haskell</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="skill-name">React</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span class="skill-name">Next.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">C++</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">Go</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Development Tools & Frameworks</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-hammer"></i>
+                            </div>
+                            <span class="skill-name">Hardhat</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-scroll"></i>
+                            </div>
+                            <span class="skill-name">Plutus</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cubes"></i>
+                            </div>
+                            <span class="skill-name">Aiken</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <span class="skill-name">Cardano CLI</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <span class="skill-name">Blockfrost</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-stream"></i>
+                            </div>
+                            <span class="skill-name">Ogmios</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-anchor"></i>
+                            </div>
+                            <span class="skill-name">Anchor</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-docker"></i>
+                            </div>
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <span class="skill-name">IPFS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <span class="skill-name">Foundry</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-bug"></i>
+                            </div>
+                            <span class="skill-name">MythX</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="skill-name">Slither</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-plug"></i>
+                            </div>
+                            <span class="skill-name">Infura</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-magic"></i>
+                            </div>
+                            <span class="skill-name">Alchemy</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <span class="skill-name">Wormhole SDK</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">Web3.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">Ethers.js</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <span class="skill-name">Truffle</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-vial"></i>
+                            </div>
+                            <span class="skill-name">Mocha & Chai</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                            <span class="skill-name">Postman</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span class="skill-name">SPL Tokens</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <span class="skill-name">CPI Utilities</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Specialized Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <span class="skill-name">Uniswap V4 Hooks</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <span class="skill-name">AI-Integrated DeFi</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span class="skill-name">CertiK Auditing</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <span class="skill-name">Base L2 Protocol</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <span class="skill-name">Tokenomics Design</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <span class="skill-name">Cross-Chain Solutions</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get In Touch Section -->
+    <section id="get-in-touch" class="get-in-touch">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's build something amazing together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>geekviditweb3@gmail.com</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 6367146698</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>New Delhi, India</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/viditweb3/" target="_blank">viditweb3</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/ViditGalav" target="_blank">ViditGalav</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-medium"></i>
+                        </div>
+                        <h3>Medium</h3>
+                        <a href="https://medium.com/@ViditWeb3" target="_blank">@ViditWeb3</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="How can I help you?" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project..." rows="6" required></textarea>
+                            <div class="input-glow"></div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Contact Elements -->
+        <div class="contact-floating-elements">
+            <div class="floating-email">📧</div>
+            <div class="floating-phone">📱</div>
+            <div class="floating-location">📍</div>
+            <div class="floating-linkedin">💼</div>
+            <div class="floating-github">💻</div>
+            <div class="floating-medium">✍️</div>
+        </div>
+    </section>
+
+  
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Vidit Galav. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#get-in-touch">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

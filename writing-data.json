@@ -1,0 +1,145 @@
+{
+  "author": {
+    "name": "Vidit Galav",
+    "mediumProfile": "https://medium.com/@ViditWeb3",
+    "since": 2022,
+    "lastPublished": "2024-02-18"
+  },
+  "articles": [
+    {
+      "id": "zero-knowledge-titans-clash",
+      "title": "Zero-Knowledge Titans Clash: Decoding the Battle Between ZK-SNARKs and ZK-STARKs",
+      "url": "https://medium.com/coinmonks/zero-knowledge-titans-clash-decoding-the-battle-between-zk-snarks-and-zk-starks-in-the-future-of-blockchain-4b8e6e7b8e5e",
+      "publishedAt": "2023-12-23",
+      "excerpt": "The advent of blockchain technology has unleashed a revolution in decentralized systems, promising secure and transparent transactions without intermediaries.",
+      "tags": ["Zero-Knowledge", "ZK-SNARKs", "ZK-STARKs", "Blockchain", "Cryptography"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xyz123.jpg",
+      "readingTimeMin": 12,
+      "featured": true,
+      "metrics": {
+        "claps": 120,
+        "reads": 5400
+      }
+    },
+    {
+      "id": "web3-generative-ai-collaboration",
+      "title": "Web3.0 Meets Generative AI: A Pioneering Collaboration",
+      "url": "https://medium.com/coinmonks/web3-0-meets-generative-ai-a-pioneering-collaboration-abc123def456",
+      "publishedAt": "2024-02-18",
+      "excerpt": "Exploring the intersection of Web3 technology and generative AI, and how this collaboration is reshaping the digital landscape.",
+      "tags": ["Web3", "AI", "Generative AI", "Blockchain", "Innovation"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*def456.jpg",
+      "readingTimeMin": 8,
+      "featured": true,
+      "metrics": {
+        "claps": 95,
+        "reads": 3200
+      }
+    },
+    {
+      "id": "nft-liquidity-landscape",
+      "title": "Navigating the NFT Liquidity Landscape: A Comprehensive Guide",
+      "url": "https://medium.com/coinmonks/navigating-the-nft-liquidity-landscape-a-comprehensive-guide-ghi789jkl012",
+      "publishedAt": "2024-02-15",
+      
+      "tags": ["NFT", "Liquidity", "DeFi", "Trading", "Marketplace"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ghi789.jpg",
+      "readingTimeMin": 10,
+      "featured": true,
+      "metrics": {
+        "claps": 87,
+        "reads": 4100
+      }
+    },
+    {
+      "id": "defi-crypto-risk-protection",
+      "title": "Insuring Tomorrow: A Deep Dive into DeFi/Crypto Risk Protection",
+      "url": "https://medium.com/coinmonks/insuring-tomorrow-a-deep-dive-into-defi-crypto-risk-protection-mno345pqr678",
+      "publishedAt": "2024-02-14",
+      "excerpt": "Comprehensive analysis of risk management and insurance mechanisms in the DeFi ecosystem, covering smart contract risks and protection strategies.",
+      "tags": ["DeFi", "Insurance", "Risk Management", "Smart Contracts", "Security"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*mno345.jpg",
+      "readingTimeMin": 14,
+      "featured": false,
+      "metrics": {
+        "claps": 76,
+        "reads": 2800
+      }
+    },
+    {
+      "id": "web3-law-compliance",
+      "title": "Web3 and the Law: Simplifying Compliance for Businesses",
+      "url": "https://medium.com/coinmonks/web3-and-the-law-simplifying-compliance-for-businesses-stu901vwx234",
+      "publishedAt": "2024-02-13",
+      "excerpt": "Understanding regulatory frameworks and compliance requirements for Web3 businesses, with practical guidance for legal implementation.",
+      "tags": ["Web3", "Compliance", "Regulation", "Legal", "Business"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*stu901.jpg",
+      "readingTimeMin": 11,
+      "featured": false,
+      "metrics": {
+        "claps": 92,
+        "reads": 3500
+      }
+    },
+    {
+      "id": "web3-centralization-realities",
+      "title": "Web3 Realities: Centralization's Stealth Grip on the Decentralized Dream",
+      "url": "https://medium.com/coinmonks/web3-realities-centralizations-stealth-grip-on-the-decentralized-dream-yza567bcd890",
+      "publishedAt": "2024-02-12",
+      "excerpt": "In the ever-evolving landscape of Web3, the concept of decentralization is both a beacon of promise and a source of ongoing challenges.",
+      "tags": ["Web3", "Decentralization", "Centralization", "Blockchain", "Analysis"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*yza567.jpg",
+      "readingTimeMin": 13,
+      "featured": false,
+      "metrics": {
+        "claps": 110,
+        "reads": 4800
+      }
+    },
+    {
+      "id": "cbdc-digital-money-revolution",
+      "title": "Digital Money Revolution: A Guide to CBDCs",
+      "url": "https://medium.com/coinmonks/digital-money-revolution-a-guide-to-cbdcs-efg123hij456",
+      "publishedAt": "2024-01-24",
+      "excerpt": "The financial realm is undergoing a revolutionary transformation fueled by blockchain technology and the advent of Central Bank Digital Currencies.",
+      "tags": ["CBDC", "Digital Currency", "Blockchain", "Finance", "Central Bank"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*efg123.jpg",
+      "readingTimeMin": 9,
+      "featured": false,
+      "metrics": {
+        "claps": 68,
+        "reads": 2200
+      }
+    },
+    {
+      "id": "web3-social-change",
+      "title": "Web3's Impact on Social Change: Trends and Design Principles",
+      "url": "https://medium.com/coinmonks/web3s-impact-on-social-change-trends-and-design-principles-klm789nop012",
+      "publishedAt": "2024-01-15",
+      "excerpt": "Web3, the decentralized, blockchain-based ecosystem, is rapidly evolving and set to play a pivotal role in driving positive social change.",
+      "tags": ["Web3", "Social Impact", "Design Principles", "Blockchain", "Society"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*klm789.jpg",
+      "readingTimeMin": 7,
+      "featured": false,
+      "metrics": {
+        "claps": 54,
+        "reads": 1800
+      }
+    },
+    {
+      "id": "cross-chain-interoperability",
+      "title": "One Blockchain, Many Chains: Understanding the Power of Cross-Chain Interoperability",
+      "url": "https://medium.com/coinmonks/one-blockchain-many-chains-understanding-the-power-of-cross-chain-interoperability-qrs345tuv678",
+      "publishedAt": "2024-01-07",
+      "excerpt": "Blockchain technology, lauded for its decentralized paradigm, has revolutionized various industries. Yet, the lack of a unified platform remains a challenge.",
+      "tags": ["Cross-Chain", "Interoperability", "Blockchain", "DeFi", "Technology"],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*qrs345.jpg",
+      "readingTimeMin": 10,
+      "featured": false,
+      "metrics": {
+        "claps": 83,
+        "reads": 3100
+      }
+    }
+  ]
+}
