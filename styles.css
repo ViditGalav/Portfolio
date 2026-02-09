@@ -3810,40 +3810,56 @@ body {
 .projects-grid-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem;
+    gap: 1.5rem;
     align-items: stretch;
 }
 
 .project-card {
     background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
     border: 1px solid rgba(255,255,255,0.04);
-    border-radius: 14px;
-    padding: 1.25rem;
+    border-radius: 16px;
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    overflow: hidden;
     box-shadow: 0 8px 30px rgba(2,6,23,0.6);
-    transition: transform 160ms ease, box-shadow 160ms ease;
+    transition: transform 200ms ease, box-shadow 200ms ease;
 }
 
 .project-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 18px 40px rgba(2,6,23,0.75);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(2,6,23,0.8);
 }
 
+/* Colored header section with icon */
 .project-image {
-    flex: 0 0 72px;
-    height: 72px;
-    border-radius: 12px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(139,92,246,0.06));
-    font-size: 28px;
+    font-size: 56px;
     color: #fff;
+    flex-shrink: 0;
 }
+
+/* Per-card header color accent */
+.goldpesa-card .project-image { background: linear-gradient(135deg, #f59e0b, #f97316); }
+.foreon-card .project-image { background: linear-gradient(135deg, #06b6d4, #0891b2); }
+.luckify-card .project-image { background: linear-gradient(135deg, #ef4444, #f97316); }
+.cryptovault-card .project-image { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
+.limix-ai-card .project-image { background: linear-gradient(135deg, #06b6d4, #7c3aed); }
+.streamnft-card .project-image { background: linear-gradient(135deg, #10b981, #059669); }
+.tradible-card .project-image { background: linear-gradient(135deg, #ef4444, #dc2626); }
+.zuraverse-card .project-image { background: linear-gradient(135deg, #7c3aed, #06b6d4); }
+.artanai-card .project-image { background: linear-gradient(135deg, #f97316, #f59e0b); }
 
 .project-content {
-    flex: 1 1 auto;
+    flex: 1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
 .category-badge {
@@ -3851,27 +3867,97 @@ body {
     background: rgba(99,102,241,0.12);
     color: #e8eaf6;
     padding: 6px 10px;
-    border-radius: 999px;
-    font-size: 12px;
-    margin-bottom: 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    width: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-.project-tech { margin-top: 8px; }
+.project-content h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #e6eefc;
+    font-weight: 700;
+}
+
+.project-content p {
+    color: rgba(230,238,252,0.75);
+    line-height: 1.5;
+    margin: 0;
+    font-size: 0.9rem;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.project-tech {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
 .project-tech .tech-tag {
     display: inline-block;
-    background: rgba(255,255,255,0.03);
+    background: rgba(255,255,255,0.05);
     color: #cbd5e1;
-    padding: 6px 8px;
-    margin-right: 6px;
-    margin-bottom: 6px;
-    border-radius: 8px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.project-links {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.project-link {
+    color: #cde1ff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 160ms ease;
+}
+
+.project-link:hover {
+    color: #fff;
+}
+
+.project-link i {
     font-size: 12px;
 }
 
-.project-links { margin-top: 12px; display:flex; align-items:center; gap:0.75rem; }
-.project-link { color: #cde1ff; text-decoration:none; display:inline-flex; align-items:center; gap:8px; background:transparent; }
-.project-link i { font-size: 12px; }
-.project-metric .metric { background: linear-gradient(135deg,#10b981,#059669); padding:6px 10px; border-radius:8px; color:#fff; font-weight:600; font-size:12px; }
+.project-metric {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.project-metric .metric {
+    background: linear-gradient(135deg, #10b981, #059669);
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.5);
+}
 
 .portfolio-filters { margin-top: 12px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
 
@@ -3931,10 +4017,20 @@ body {
 }
 
 @media (max-width: 700px) {
-    .projects-grid-cards { grid-template-columns: 1fr; }
-    .project-card { flex-direction: row; padding: 12px; }
-    .project-image { flex: 0 0 56px; height:56px; font-size:22px; }
+    .projects-grid-cards { grid-template-columns: 1fr; gap: 1rem; }
+    .project-image { height: 120px; font-size: 48px; }
+    .project-content { padding: 1.25rem; }
+    .project-content p { -webkit-line-clamp: 3; }
 }
+
+@media (max-width: 480px) {
+    .projects-grid-cards { grid-template-columns: 1fr; gap: 0.875rem; }
+    .project-image { height: 100px; font-size: 40px; }
+    .project-content { padding: 1rem; }
+    .project-links { flex-direction: column; align-items: flex-start; }
+    .project-metric { margin-left: 0; margin-top: 0.5rem; }
+}
+
 
 
 @media (max-width: 480px) {
@@ -3991,7 +4087,6 @@ body {
         transform: translateY(0);
     }
 }
-
 /* Additional polish for project cards and filtering */
 .project-card {
     position: relative;
@@ -4008,46 +4103,12 @@ body {
     mix-blend-mode: overlay;
 }
 
-.project-image {
-    background-blend-mode: screen;
-    box-shadow: 0 6px 18px rgba(2,6,23,0.55);
-}
-
-.project-card .project-content h3 {
-    margin-top: 0;
-    margin-bottom: 6px;
-    color: #e6eefc;
-    font-size: 1.05rem;
-}
-
-.project-card .project-content p {
-    color: rgba(230,238,252,0.85);
-    line-height: 1.45;
-    margin: 0.3rem 0 0.6rem 0;
-    max-height: 7.2rem; /* clamp description for tidy grid */
-    overflow: hidden;
-}
-
 .project-card.filtered-out {
     pointer-events: none;
     opacity: 0;
     transform: translateY(8px);
     height: auto;
 }
-
-/* small visual accent for each project image using CSS variables */
-.goldpesa-card .project-image { background: linear-gradient(135deg,#f59e0b33,#f9731633); }
-.foreon-card .project-image { background: linear-gradient(135deg,#06b6d433,#0891b233); }
-.luckify-card .project-image { background: linear-gradient(135deg,#ef444433,#f9731633); }
-.cryptovault-card .project-image { background: linear-gradient(135deg,#6366f133,#8b5cf633); }
-.limix-ai-card .project-image { background: linear-gradient(135deg,#06b6d433,#7c3aed33); }
-.streamnft-card .project-image { background: linear-gradient(135deg,#10b98133,#05966933); }
-.tradible-card .project-image { background: linear-gradient(135deg,#ef444433,#dc262633); }
-.zuraverse-card .project-image { background: linear-gradient(135deg,#7c3aed33,#06b6d433); }
-.artanai-card .project-image { background: linear-gradient(135deg,#f9731633,#f59e0b33); }
-
-/* Cap the number of tech tags per line */
-.project-tech .tech-tag { max-width: 100%; display: inline-block; }
 
 /* Small accessible focus ring for chips */
 .tag-chip:focus {
