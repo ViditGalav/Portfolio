@@ -876,15 +876,28 @@
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Showcase of my blockchain and DeFi projects</p>
+                <h2 class="section-title">Selected Portfolio</h2>
+                <p class="section-subtitle">From my broader deliveries across multi-chain ecosystems, here are live platforms that highlight the range of systems I've contributed to — spanning DeFi, RWA, NFTs, GameFi, prediction markets and developer tooling.</p>
+                <div class="portfolio-filters" aria-hidden="false">
+                    <button class="tag-chip">DeFi</button>
+                    <button class="tag-chip">RWA</button>
+                    <button class="tag-chip">Markets</button>
+                    <button class="tag-chip">Gaming</button>
+                    <button class="tag-chip">Trading</button>
+                    <button class="tag-chip">DevTools</button>
+                    <button class="tag-chip">NFTs</button>
+                    <button class="tag-chip">Marketplace</button>
+                    <button class="tag-chip">Metaverse</button>
+                    <button class="tag-chip">Creator</button>
+                </div>
             </div>
-            <div class="projects-grid">
-                <div class="project-card goldpesa-card">
+            <div class="projects-grid projects-grid-cards">
+                <div class="project-card goldpesa-card" data-category="DeFi,Tokenomics">
                     <div class="project-image">
                         <i class="fas fa-gem"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">DeFi & Protocols</div>
                         <h3>GoldPesa Protocol</h3>
                         <p>Comprehensive DeFi ecosystem featuring <strong>GPO (GoldPesa Option)</strong> with deep liquidity for institutional trading ($5K-$10M), <strong>GPX (GoldPesa Token)</strong> with 1% transfer fees distributed to Mines, Pawn, and Treasury. Includes <strong>GoldPesa Vault</strong> for 1:1 GPO-to-GPX conversion, <strong>GoldPesa Mines</strong> staking game with USDC rewards, and <strong>Pawn Contract</strong> for automated buy-and-redistribute mechanics. Built on Base L2 with Uniswap V4 integration and CertiK-audited security.</p>
                         <div class="project-tech">
@@ -900,6 +913,10 @@
                                 <i class="fas fa-external-link-alt"></i>
                                 GoldPesa
                             </a>
+                            <a href="https://gpmines.com/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Mines
+                            </a>
                             <a href="https://pumpmarketcap.com/" class="project-link" target="_blank">
                                 <i class="fas fa-external-link-alt"></i>
                                 Pump MarketCap
@@ -911,11 +928,12 @@
                     </div>
                 </div>
 
-                <div class="project-card foreon-card">
+                <div class="project-card foreon-card" data-category="Prediction Markets,Trading">
                     <div class="project-image">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">Prediction Markets / Trading</div>
                         <h3>Foreon Network</h3>
                         <p>Cardano-native prediction market platform featuring UTxO-based smart contracts and on-chain order books. Built with Aiken and Plutus for efficient transaction handling and decentralized market creation. Enables users to create and participate in prediction markets with transparent, verifiable outcomes.</p>
                         <div class="project-tech">
@@ -937,11 +955,12 @@
                     </div>
                 </div>
 
-                <div class="project-card luckify-card">
+                <div class="project-card luckify-card" data-category="Gaming,VRF">
                     <div class="project-image">
                         <i class="fas fa-dice"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">Blockchain Gaming & Trustless Systems</div>
                         <h3>Luckify</h3>
                         <p>Trustless gaming platform powered by Chainlink VRF for provably fair outcomes. Built with advanced cryptographic randomness to ensure transparent and verifiable game results, revolutionizing the gaming industry with blockchain-based fairness guarantees.</p>
                         <div class="project-tech">
@@ -962,11 +981,12 @@
                     </div>
                 </div>
 
-                <div class="project-card cryptovault-card">
+                <div class="project-card cryptovault-card" data-category="Trading,Token Launch">
                     <div class="project-image">
                         <i class="fas fa-vault"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">Trading / Token Launch Platform</div>
                         <h3>CryptoVault</h3>
                         <p>Personal project: Advanced trading hub with comprehensive token launch tools, cutting-edge UI/UX design, and interactive animations. Features real-time market data, portfolio management, and seamless token deployment capabilities with an intuitive user interface.</p>
                         <div class="project-tech">
@@ -987,11 +1007,12 @@
                     </div>
                 </div>
 
-                <div class="project-card limix-ai-card">
+                <div class="project-card limix-ai-card" data-category="AI,DevTooling">
                     <div class="project-image">
                         <i class="fas fa-robot"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">AI-Powered Web3 Development Toolchain</div>
                         <h3>Limix AI</h3>
                         <p>AI-powered smart contract IDE for Solana chain, reducing development time by 40% through AI-driven code generation and real-time error detection.</p>
                         <div class="project-tech">
@@ -1011,11 +1032,12 @@
                     </div>
                 </div>
 
-                <div class="project-card streamnft-card">
+                <div class="project-card streamnft-card" data-category="NFT-Fi,Collateral">
                     <div class="project-image">
                         <i class="fas fa-film"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">NFT-Fi & Collateralized Finance</div>
                         <h3>StreamNFT</h3>
                         <p>Building Web3.0 based cutting-edge protocols in Solana and Ethereum for Staking, Rent, and Loan. Utilizing NFTs as collateral to revolutionize decentralized finance. Focused on optimizing gas costs and ensuring contract security through testing and robust architecture. Senior smart contract developer contribution to ERC-7066, enabling lockable NFTs that remain in self-custody while restricting transfers, enhancing safety, utility, and liquidity without compromising ownership.</p>
                         <div class="project-tech">
@@ -1038,11 +1060,12 @@
                     </div>
                 </div>
 
-                <div class="project-card tradible-card">
+                <div class="project-card tradible-card" data-category="Marketplace,Collectibles">
                     <div class="project-image">
                         <i class="fas fa-store"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">Collectibles Marketplace</div>
                         <h3>Tradible</h3>
                         <p>Decentralised marketplace for physical and digital collectibles with NFT-backed authenticity proofs. Built the NFT minting, trading, and authenticity verification flows to create a seamless experience for collectors and creators.</p>
                         <div class="project-tech">
@@ -1064,11 +1087,12 @@
                     </div>
                 </div>
 
-                <div class="project-card zuraverse-card">
+                <div class="project-card zuraverse-card" data-category="GameFi,Metaverse">
                     <div class="project-image">
                         <i class="fas fa-gamepad"></i>
                     </div>
                     <div class="project-content">
+                        <div class="category-badge">GameFi Metaverse Ecosystem</div>
                         <h3>Zuraverse</h3>
                         <p>Complete gaming metaverse with NFT assets, GameFi mechanics, and marketplace integration. Responsible for smart contracts, in-game economies, and secure player asset ownership to create a fully functional and secure gaming ecosystem.</p>
                         <div class="project-tech">
@@ -1090,111 +1114,31 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Portfolio Showcase Section -->
-    <section id="portfolio-showcase" class="portfolio-showcase">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Development Portfolio & Innovations</h2>
-                <p class="section-subtitle">Comprehensive collection of blockchain solutions and DeFi protocols</p>
+                <div class="project-card artanai-card" data-category="NFT-RWA,Creator Tools">
+                    <div class="project-image">
+                        <i class="fas fa-palette"></i>
                     </div>
-            <div class="portfolio-showcase-grid">
-                <div class="portfolio-showcase-card">
-                    <div class="portfolio-header">
-                        <div class="portfolio-icon">
-                            <i class="fas fa-cubes"></i>
+                    <div class="project-content">
+                        <div class="category-badge">NFT RWA Bridging & Creator Tools</div>
+                        <h3>ArtanAI</h3>
+                        <p>Bridges NFTs with physical art delivery, enabling on-chain ownership with real-world fulfillment. Built creator verification, ownership tracking, and reward systems to support cultural preservation and creative industries.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NFT Integration</span>
+                            <span class="tech-tag">Physical Fulfillment</span>
+                            <span class="tech-tag">Creator Verification</span>
+                            <span class="tech-tag">Ownership Tracking</span>
+                            <span class="tech-tag">Reward Systems</span>
+                            <span class="tech-tag">Web3</span>
                         </div>
-                        <h3>Multi-Protocol Development Suite</h3>
-                        <p>Four integrated blockchain solutions showcasing expertise across DeFi, Real Estate, Gaming, and Trading domains</p>
-                        </div>
-                    <div class="portfolio-projects">
-                        <div class="mini-project">
-                            <div class="mini-icon property-mini">
-                                <i class="fas fa-home"></i>
-                    </div>
-                            <div class="mini-content">
-                                <h4>Property Verse</h4>
-                                <p>Decentralized Real Estate tokenization platform enabling fractional property ownership through ERC20 tokens</p>
-                                <div class="mini-tech">
-                                    <span>Ethereum</span>
-                                    <span>ERC20</span>
-                                    <span>Tokenization</span>
-                </div>
-                                <a href="https://github.com/ViditGalav/RealEstate-Dev" class="mini-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
+                        <div class="project-links">
+                            <a href="https://artanai.cloud" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                ArtanAI
+                            </a>
+                            <div class="project-metric">
+                                <span class="metric">Live Platform</span>
                             </div>
-                        </div>
-                        
-                        <div class="mini-project">
-                            <div class="mini-icon staker-mini">
-                                <i class="fas fa-coins"></i>
-                            </div>
-                            <div class="mini-content">
-                                <h4>TokenStaker</h4>
-                                <p>Secure staking mechanism with 20% gas reduction through advanced storage optimization patterns</p>
-                                <div class="mini-tech">
-                                    <span>Solidity</span>
-                                    <span>DeFi</span>
-                                    <span>Staking</span>
-                                </div>
-                                <a href="https://github.com/ViditGalav/TokenStaker---Decentralized-Token-Staking-Platform" class="mini-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="mini-project">
-                            <div class="mini-icon nft-mini">
-                                <i class="fas fa-palette"></i>
-                            </div>
-                            <div class="mini-content">
-                                <h4>NFT Marketplace</h4>
-                                <p>Full-stack Ethereum NFT platform with 30% cost reduction and OpenZeppelin security integration</p>
-                                <div class="mini-tech">
-                                    <span>ERC-721</span>
-                                    <span>OpenZeppelin</span>
-                                    <span>Gas Optimization</span>
-                                </div>
-                                <a href="https://github.com/ViditGalav/NFTMarketplace-A-Decentralized-NFT-Marketplace-on-Ethereum" class="mini-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="mini-project">
-                            <div class="mini-icon arbitrage-mini">
-                                <i class="fas fa-exchange-alt"></i>
-                            </div>
-                            <div class="mini-content">
-                                <h4>Flash Loan Arbitrage</h4>
-                                <p>BSC arbitrage strategy leveraging PancakeSwap flash loans with secure trading logic and reentrancy protection</p>
-                                <div class="mini-tech">
-                                    <span>BSC</span>
-                                    <span>PancakeSwap</span>
-                                    <span>Flash Loans</span>
-                                </div>
-                                <a href="https://github.com/ViditGalav/Flashloan-Arbitrage" class="mini-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-metrics">
-                        <div class="metric-item">
-                            <span class="metric-number">4</span>
-                            <span class="metric-label">Complete Projects</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-number">50%</span>
-                            <span class="metric-label">Avg. Gas Reduction</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-number">100%</span>
-                            <span class="metric-label">Open Source</span>
                         </div>
                     </div>
                 </div>
@@ -2020,6 +1964,7 @@
     </footer>
 
     <!-- Custom JavaScript -->
+    <script src="projects.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
