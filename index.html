@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vidit Galav - Blockchain Developer & CTO</title>
-    <meta name="description" content="Vidit Galav - Blockchain Developer, CTO & Co-Founder at Limix AI. Expert in Ethereum, Solana, DeFi protocols, smart contract development, and AI/ML-integrated systems.">
-    <meta name="keywords" content="Blockchain Developer, Smart Contract Engineer, Web3 Architect, Ethereum, Solana, Cardano, DeFi Protocols, AI Engineer, LLM Integration, Retrieval-Augmented Generation, Machine Learning, AI-Integrated Systems, CTO">
+    <title>Vidit Galav | Principal Blockchain, AI & Systems Engineer</title>
+    <meta name="description" content="Vidit Galav is a Principal Blockchain, AI and Systems Engineer building financial infrastructure, high-performance Rust backends, secure protocols, real-time data systems, and production AI platforms.">
+    <meta name="keywords" content="Principal Blockchain Engineer, AI Systems Engineer, Distributed Systems Engineer, Trading Systems Engineer, Rust Backend Engineer, Backend Architect, Smart Contract Engineer, Protocol Engineer, Prediction Markets, Financial Infrastructure, AI Agents, RAG, Kubernetes, Observability, Web3 Security">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -29,8 +29,8 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Vidit Galav",
-        "jobTitle": "Blockchain Developer & CTO",
-        "description": "Senior Blockchain Architect specializing in Web3, DeFi protocols, and smart contract development",
+        "jobTitle": "Principal Blockchain, AI & Systems Engineer",
+        "description": "Principal Blockchain, AI and Systems Engineer specializing in financial infrastructure, trading and execution systems, high-performance Rust backends, Web3 protocols, smart contracts, security, and production AI platforms",
         "url": "https://viditgalav.dev",
         "sameAs": [
             "https://medium.com/@ViditWeb3",
@@ -38,6 +38,17 @@
             "https://www.linkedin.com/in/vidit-galav/"
         ],
         "knowsAbout": [
+            "Financial Infrastructure",
+            "AI Systems Engineering",
+            "AI Agents and Intelligent Automation",
+            "Trading and Execution Systems",
+            "Rust Systems Programming",
+            "Golang Backend Engineering",
+            "P2P Networking",
+            "Distributed Systems",
+            "Backend Infrastructure Engineering",
+            "Concurrency & Async Runtimes",
+            "Market Data and Settlement",
             "Blockchain Development",
             "Smart Contracts",
             "DeFi Protocols",
@@ -50,7 +61,7 @@
         ],
         "hasOccupation": {
             "@type": "Occupation",
-            "name": "Blockchain Developer",
+            "name": "Principal Blockchain, AI & Systems Engineer",
             "occupationLocation": {
                 "@type": "Place",
                 "name": "New Delhi, India"
@@ -129,82 +140,79 @@
                         <div class="matrix-rain rain-9">01</div>
                         <div class="matrix-rain rain-10">10</div>
                         
-                        <!-- New: Blockchain Code Snippets -->
+                        <!-- Systems Code Snippets -->
                         <div class="code-snippet ethereum-code">
-                            <div class="code-header">Ethereum</div>
+                            <div class="code-header">Rust / Tokio</div>
                             <div class="code-content">
-                                <span class="code-line"><span class="keyword">function</span> <span class="function">deploy</span>() {</span>
-                                <span class="code-line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="class">SmartContract</span>();</span>
-                                <span class="code-line">  <span class="comment">// ERC20 Token</span></span>
-                                <span class="code-line">  <span class="keyword">await</span> <span class="variable">token</span>.<span class="function">mint</span>();</span>
-                                <span class="code-line">}</span>
-                            </div>
-                        </div>
-                        
-                        <div class="code-snippet solana-code">
-                            <div class="code-header">Solana</div>
-                            <div class="code-content">
-                                <span class="code-line"><span class="keyword">pub</span> <span class="keyword">fn</span> <span class="function">initialize</span>() {</span>
-                                <span class="code-line">  <span class="keyword">let</span> <span class="variable">program</span> = <span class="class">Program</span>::<span class="function">new</span>();</span>
-                                <span class="code-line">  <span class="comment">// SPL Token</span></span>
-                                <span class="code-line">  <span class="variable">program</span>.<span class="function">deploy</span>();</span>
-                                <span class="code-line">}</span>
-                            </div>
-                        </div>
-                        
-                        <div class="code-snippet cardano-code">
-                            <div class="code-header">Cardano</div>
-                            <div class="code-content">
-                                <span class="code-line"><span class="comment">-- Aiken pseudo</span></span>
-                                <span class="code-line"><span class="keyword">validator</span> <span class="function">market_factory</span> (<span class="variable">datum</span>, <span class="variable">redeemer</span>, <span class="variable">ctx</span>) <span class="operator">=</span></span>
-                                <span class="code-line">  <span class="keyword">let</span> <span class="variable">tx</span> <span class="operator">=</span> <span class="class">tx_info</span> <span class="variable">ctx</span></span>
-                                <span class="code-line">  <span class="keyword">in</span> <span class="function">assert</span> (<span class="function">signed_by</span> <span class="variable">tx</span> <span class="variable">adminPkh</span>)</span>
-                                <span class="code-line">  <span class="operator">&&</span> <span class="function">outputs_contain</span> <span class="class">OutcomeToken</span></span>
-                                <span class="code-line"><span class="comment">-- UTxO based checks omitted</span></span>
-                            </div>
-                        </div>
-                        
-                        <div class="code-snippet haskell-code">
-                            <div class="code-header">Plutus (Haskell)</div>
-                            <div class="code-content">
-                                <span class="code-line"><span class="keyword">module</span> <span class="class">Escrow</span> <span class="keyword">where</span></span>
-                                <span class="code-line"><span class="keyword">{-#</span> <span class="comment">INLINABLE mkValidator</span> <span class="keyword">#-}</span></span>
-                                <span class="code-line"><span class="function">mkValidator</span> <span class="variable">datum</span> <span class="variable">redeemer</span> <span class="variable">ctx</span> <span class="operator">=</span></span>
-                                <span class="code-line">  <span class="function">traceIfFalse</span> <span class="string">"authorized resolver"</span> (<span class="function">txSignedBy</span> (<span class="function">scriptContextTxInfo</span> <span class="variable">ctx</span>) <span class="variable">resolverPkh</span>)</span>
-                            </div>
-                        </div>
-                        
-                        <div class="code-snippet polygon-code">
-                            <div class="code-header">Polygon</div>
-                            <div class="code-content">
-                                <span class="code-line"><span class="keyword">contract</span> <span class="class">DeFiProtocol</span> {</span>
-                                <span class="code-line">  <span class="keyword">function</span> <span class="function">swap</span>() <span class="keyword">external</span> {</span>
-                                <span class="code-line">    <span class="comment">// Layer 2</span></span>
-                                <span class="code-line">    <span class="variable">router</span>.<span class="function">execute</span>();</span>
+                                <span class="code-line"><span class="keyword">async fn</span> <span class="function">consume_events</span>(<span class="variable">mut rx</span>: Receiver&lt;Event&gt;) {</span>
+                                <span class="code-line">  <span class="keyword">while let</span> <span class="keyword">Some</span>(<span class="variable">event</span>) = <span class="variable">rx</span>.<span class="function">recv</span>().<span class="keyword">await</span> {</span>
+                                <span class="code-line">    <span class="function">reconcile</span>(<span class="variable">event</span>).<span class="keyword">await</span>;</span>
                                 <span class="code-line">  }</span>
                                 <span class="code-line">}</span>
                             </div>
                         </div>
                         
-                        <div class="code-snippet defi-code">
-                            <div class="code-header">DeFi</div>
+                        <div class="code-snippet solana-code">
+                            <div class="code-header">Go / Services</div>
                             <div class="code-content">
-                                <span class="code-line"><span class="keyword">async</span> <span class="keyword">function</span> <span class="function">flashLoan</span>() {</span>
-                                <span class="code-line">  <span class="keyword">const</span> <span class="variable">loan</span> = <span class="keyword">await</span> <span class="class">Aave</span>.<span class="function">borrow</span>();</span>
-                                <span class="code-line">  <span class="comment">// Arbitrage</span></span>
-                                <span class="code-line">  <span class="keyword">await</span> <span class="function">executeTrade</span>();</span>
+                                <span class="code-line"><span class="keyword">func</span> (<span class="variable">s</span> *<span class="class">Server</span>) <span class="function">CreateOrder</span>(</span>
+                                <span class="code-line">  <span class="variable">ctx</span> <span class="class">context.Context</span>, <span class="variable">req</span> *<span class="class">OrderRequest</span>,</span>
+                                <span class="code-line">) (*<span class="class">Order</span>, <span class="keyword">error</span>) {</span>
+                                <span class="code-line">  <span class="keyword">return</span> <span class="variable">s</span>.<span class="variable">execution</span>.<span class="function">Submit</span>(<span class="variable">ctx</span>, <span class="variable">req</span>)</span>
+                                <span class="code-line">}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet cardano-code">
+                            <div class="code-header">Python / AI</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">async def</span> <span class="function">run_agent</span>(<span class="variable">task</span>, <span class="variable">tools</span>):</span>
+                                <span class="code-line">  <span class="variable">context</span> = <span class="keyword">await</span> <span class="function">retrieve_context</span>(<span class="variable">task</span>)</span>
+                                <span class="code-line">  <span class="variable">plan</span> = <span class="keyword">await</span> <span class="function">reason</span>(<span class="variable">context</span>)</span>
+                                <span class="code-line">  <span class="keyword">return await</span> <span class="function">execute_tools</span>(<span class="variable">plan</span>, <span class="variable">tools</span>)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet haskell-code">
+                            <div class="code-header">Node.js / APIs</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">const</span> <span class="variable">app</span> = <span class="function">Fastify</span>();</span>
+                                <span class="code-line"><span class="variable">app</span>.<span class="function">post</span>(<span class="string">'/settle'</span>, <span class="keyword">async</span> (<span class="variable">request</span>) =&gt; {</span>
+                                <span class="code-line">  <span class="keyword">return await</span> <span class="variable">ledger</span>.<span class="function">commit</span>(<span class="variable">request.body</span>);</span>
+                                <span class="code-line">});</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet polygon-code">
+                            <div class="code-header">Solidity / EVM</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">function</span> <span class="function">settle</span>(<span class="variable">bytes32 marketId</span>) <span class="keyword">external</span> {</span>
+                                <span class="code-line">  <span class="function">require</span>(<span class="variable">resolved</span>[<span class="variable">marketId</span>]);</span>
+                                <span class="code-line">  <span class="comment">// Secure state transition</span></span>
+                                <span class="code-line">  <span class="function">_releaseCollateral</span>(<span class="variable">marketId</span>);</span>
+                                <span class="code-line">}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="code-snippet defi-code">
+                            <div class="code-header">Rust / Trading</div>
+                            <div class="code-content">
+                                <span class="code-line"><span class="keyword">fn</span> <span class="function">apply_fill</span>(<span class="variable">book</span>: &amp;<span class="keyword">mut</span> <span class="class">OrderBook</span>,</span>
+                                <span class="code-line">  <span class="variable">fill</span>: <span class="class">Fill</span>) -&gt; <span class="class">Result</span>&lt;(), <span class="class">Error</span>&gt; {</span>
+                                <span class="code-line">  <span class="variable">book</span>.<span class="function">update_position</span>(<span class="variable">fill</span>)?;</span>
+                                <span class="code-line">  <span class="function">Ok</span>(())</span>
                                 <span class="code-line">}</span>
                             </div>
                         </div>
                         
                         <div class="code-snippet nft-code">
-                            <div class="code-header">NFT</div>
+                            <div class="code-header">AI / RAG</div>
                             <div class="code-content">
-                                <span class="code-line"><span class="keyword">function</span> <span class="function">mintNFT</span>() <span class="keyword">external</span> {</span>
-                                <span class="code-line">  <span class="keyword">uint256</span> <span class="variable">tokenId</span> = <span class="function">_tokenIdCounter</span>();</span>
-                                <span class="code-line">  <span class="comment">// Metadata</span></span>
-                                <span class="code-line">  <span class="function">_mint</span>(<span class="variable">msg.sender</span>, <span class="variable">tokenId</span>);</span>
-                                <span class="code-line">}</span>
+                                <span class="code-line"><span class="keyword">const</span> <span class="variable">answer</span> = <span class="keyword">await</span> <span class="function">agent</span>.<span class="function">run</span>({</span>
+                                <span class="code-line">  <span class="variable">knowledge</span>: <span class="keyword">await</span> <span class="function">vectorSearch</span>(<span class="variable">query</span>),</span>
+                                <span class="code-line">  <span class="variable">tools</span>: [<span class="class">marketData</span>, <span class="class">compiler</span>],</span>
+                                <span class="code-line">  <span class="variable">guardrails</span>: <span class="class">productionPolicy</span></span>
+                                <span class="code-line">});</span>
                             </div>
                         </div>
                     </div>
@@ -220,8 +228,10 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
                 <li><a href="#certifications" class="nav-link">Certifications</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#featured-writing" class="nav-link">Writing</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#get-in-touch" class="nav-link">Contact</a></li>
             </ul>
@@ -254,59 +264,82 @@
                 <div class="dot"></div>
                 <div class="dot"></div>
             </div>
+            <svg class="topology-layer" viewBox="0 0 1200 800" preserveAspectRatio="none" aria-hidden="true">
+                <defs>
+                    <linearGradient id="topoLineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.55" />
+                        <stop offset="50%" stop-color="#a855f7" stop-opacity="0.4" />
+                        <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.55" />
+                    </linearGradient>
+                </defs>
+                <g class="topo-links" stroke="url(#topoLineGradient)" stroke-width="1.4" fill="none">
+                    <path d="M 120 150 L 340 260 L 560 140 L 780 300 L 980 180" />
+                    <path d="M 200 520 L 420 420 L 640 560 L 860 460 L 1050 580" />
+                    <path d="M 340 260 L 420 420" />
+                    <path d="M 560 140 L 640 560" />
+                    <path d="M 780 300 L 860 460" />
+                </g>
+                <g class="topo-nodes" fill="#00d4ff">
+                    <circle cx="120" cy="150" r="4" />
+                    <circle cx="340" cy="260" r="5" />
+                    <circle cx="560" cy="140" r="4" />
+                    <circle cx="780" cy="300" r="5" />
+                    <circle cx="980" cy="180" r="4" />
+                    <circle cx="200" cy="520" r="4" />
+                    <circle cx="420" cy="420" r="5" />
+                    <circle cx="640" cy="560" r="4" />
+                    <circle cx="860" cy="460" r="5" />
+                    <circle cx="1050" cy="580" r="4" />
+                </g>
+            </svg>
         </div>
                     <div class="hero-content">
                 <div class="hero-text">
+                    <div class="hero-kicker">
+                        <span class="hero-kicker-mark"></span>
+                        <span>Blockchain / AI / Systems</span>
+                    </div>
                     <h1 class="hero-title">
                         <div class="rotating-titles">
                         <div class="title-item active">
                             <span class="title-prefix">I'm a</span>
-                            <span class="title-role">Smart Contract Engineer</span>
-                            
-                        </div>
-                        <div class="title-item">
-                            <span class="title-prefix">I'm a</span>
-                            <span class="title-role">dApp Builder</span>
-                            
-                        </div>
-                        <div class="title-item">
-                            <span class="title-prefix">I'm a</span>
-                            <span class="title-role">Solidity Specialist</span>
-                           
-                        </div>
-                        <div class="title-item">
-                            <span class="title-prefix">I'm a</span>
-                            <span class="title-role">DeFi Expert</span>
-                            
-                        </div>
-                        <div class="title-item">
-                            <span class="title-prefix">I'm a</span>
-                            <span class="title-role">NFT Architect</span>
-                            
-                        </div>
-                        <div class="title-item">
-                            <span class="title-prefix">I'm a</span>
-                            <span class="title-role">Web3 Enthusiast</span>
-                           
-                        </div>
-                        <div class="title-item">
-                            <span class="title-prefix">I'm a</span>
-                            <span class="title-role role-long">Blockchain Protocol Researcher</span>
-                            
-                        </div>
-                        <div class="title-item">
-                            <span class="title-prefix">I'm a</span>
                             <span class="title-role">Blockchain Architect</span>
-                            
+
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">Trading Systems Engineer</span>
+
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">Rust Backend Engineer</span>
+
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">AI Systems Engineer</span>
+
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">AI Platform Engineer</span>
+
+                        </div>
+                        <div class="title-item">
+                            <span class="title-prefix">I'm a</span>
+                            <span class="title-role">Technical Architect</span>
+
                         </div>
                     </div>
-                </h1>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary" onclick="scrollToSection('projects')">
+                    </h1>
+                    <p class="hero-summary">I design secure financial infrastructure, high-performance backends, blockchain protocols, and production AI systems from architecture to delivery.</p>
+                    <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary" onclick="scrollToSection('#projects')">
                         <span class="btn-text">View Projects</span>
                         <div class="btn-loader"></div>
                     </a>
-                    <a href="#get-in-touch" class="btn btn-secondary" onclick="scrollToSection('get-in-touch')">
+                    <a href="#get-in-touch" class="btn btn-secondary" onclick="scrollToSection('#get-in-touch')">
                         <span class="btn-text">Get In Touch</span>
                         <div class="btn-loader"></div>
                     </a>
@@ -323,6 +356,10 @@
                     <div class="stat-item">
                         <div class="stat-number" data-target="250">250+</div>
                         <div class="stat-label">Smart Contracts</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="25">25+</div>
+                        <div class="stat-label">AI Systems Delivered</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number" data-target="11">11+</div>
@@ -356,20 +393,37 @@
                         <div class="tech-icon" title="DeFi">
                             <i class="fas fa-chart-line"></i>
                         </div>
+                        <div class="tech-icon" title="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-icon" title="AI / LLM Systems">
+                            <i class="fas fa-brain"></i>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="hero-visual">
-                <!-- Brand Name on Right Top -->
-                <div class="brand-name">
-                    <span class="brand-text">VIDIT GALAV</span>
-                    <div class="brand-glow"></div>
+                <div class="hero-identity" aria-label="Vidit Galav">
+                    <span class="hero-identity-line"></span>
+                    <strong>VIDIT GALAV</strong>
+                    <span class="hero-identity-line"></span>
                 </div>
-                
-                <div class="futuristic-spinner"></div>
-                
-                <!-- 3D Blockchain Visualization -->
-                <div class="blockchain-visualization">
+                <div class="hero-console" aria-label="Vidit Galav systems profile">
+                    <div class="console-core">
+                        <div class="core-orbit orbit-one"></div>
+                        <div class="core-orbit orbit-two"></div>
+                        <div class="core-mark">VG</div>
+                        <div class="core-caption">
+                            <strong>Architecture to production</strong>
+                            <span>Secure systems / intelligent products</span>
+                            <div class="core-tags">
+                                <span><i class="fas fa-brain"></i> AI / LLM Systems</span>
+                                <span><i class="fas fa-cubes"></i> Blockchain Protocols</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Systems profile details -->
+                    <div class="blockchain-visualization">
                     <!-- Builder Ethos Panel (clean, non-overlapping) -->
                     <div class="ethos-panel">
                         <div class="ethos-header">
@@ -395,11 +449,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
-                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="scroll-indicator">
@@ -413,18 +464,18 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Passionate blockchain developer driving innovation in DeFi and Web3</p>
+                <p class="section-subtitle">Architecture, implementation, and production ownership across financial and intelligent systems</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
                     <p class="about-description">
-                        I am a <strong>Senior Blockchain Architect & Engineer</strong> with over <strong>6.5 years</strong> of experience spearheading the development of cutting-edge <strong>Web3</strong> ecosystems from concept to production. My expertise lies in end-to-end architecture, designing and implementing <strong>secure</strong>, <strong>scalable</strong> smart contracts and decentralized applications across multiple chains, including <strong>Ethereum</strong>, <strong>Solana</strong>, <strong>ICP</strong>, <strong>Cardano</strong>, and <strong>Layer 2</strong> solutions.
+                        I am a <strong>Principal Blockchain, AI & Distributed Systems Engineer</strong> with over <strong>6.5 years</strong> of experience taking high-value systems from architecture to production. I work at the intersection of <strong>financial infrastructure</strong>, <strong>blockchain protocols</strong>, and <strong>intelligent backend systems</strong>, designing secure, scalable products across <strong>Ethereum</strong>, <strong>Solana</strong>, <strong>ICP</strong>, <strong>Cardano</strong>, and <strong>Layer 2</strong> environments.
                     </p>
                     <p class="about-description">
                         I have a proven track record of leading high-impact systems across <strong>Web3</strong> and <strong>fintech</strong> - including engineering <strong>GoldPesa's $100M+</strong> token ecosystem, contributing to <strong>FinCruse's</strong> global payment and settlement rails, building <strong>Assymetrix's</strong> prediction market aggregation and intelligence layer, and architecting <strong>Cardano-native prediction markets</strong> for <strong>Foreon Network</strong>. My work spans <strong>on-chain orderbooks</strong>, <strong>liquidity systems</strong>, <strong>cross-chain protocols</strong>, and full-stack <strong>dApps</strong>, delivered from architecture → production.
                     </p>
                     <p class="about-description">
-                        As a <strong>technical leader</strong>, I design and scale complex decentralized systems across <strong>DeFi</strong>, <strong>fintech</strong>, and <strong>real-world infrastructure</strong> - including payment rails, trading systems, liquidity engines, prediction markets, tokenization platforms, and multi-chain ecosystems. I work across <strong>L2/L3 scaling</strong>, <strong>cross-chain interoperability</strong>, <strong>backend infrastructure</strong>, and high-performance distributed systems - increasingly complemented by applied <strong>AI/ML</strong>, from <strong>LLM-integrated</strong> developer tooling to <strong>RAG</strong>-driven intelligence pipelines and predictive models - solving real-world challenges in financial systems, supply chains, and global digital asset infrastructure.
+                        As a <strong>technical leader</strong>, I design and scale three connected systems tracks: <strong>financial infrastructure</strong> (trading, market data, wallets, settlement, and reconciliation), <strong>protocol infrastructure</strong> (smart contracts, DeFi, tokenization, multi-chain interoperability, and security), and <strong>intelligent systems</strong> (Rust backends, real-time data pipelines, LLM-integrated tooling, RAG, and predictive models). I make the hard parts explicit: order and market lifecycles, event-driven state, secure transitions, integration testing, reliability, and production operations.
                     </p>
                     <div class="about-highlights">
                         <div class="highlight">
@@ -450,11 +501,15 @@
                         </div>
                         <div class="highlight">
                             <i class="fas fa-money-check-alt"></i>
-                            <span>Protocol & Payment Rails Contributor at FinCruise</span>
+                            <span>Protocol & Payment Rails Contributor at Fincruse</span>
                         </div>
                         <div class="highlight">
                             <i class="fas fa-microchip"></i>
                             <span>Applied AI/ML — LLM Integration & RAG Systems</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-crab"></i>
+                            <span>Rust Systems Engineering — P2P Networking & High-Performance Backends</span>
                         </div>
                     </div>
                 </div>
@@ -465,7 +520,7 @@
                         </div>
                         <div class="profile-info">
                             <h3>Vidit Galav</h3>
-                            <p>Blockchain Developer & CTO</p>
+                            <p>Blockchain, AI & Systems CTO</p>
                             <div class="profile-location">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <span>New Delhi, India</span>
@@ -477,12 +532,120 @@
         </div>
     </section>
 
+    <!-- Core Capabilities Section -->
+    <section id="capabilities" class="role-coverage">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-kicker">Systems I build</span>
+                <h2 class="section-title">Core Engineering Capabilities</h2>
+                <p class="section-subtitle">A connected view of the financial, protocol, backend, and AI systems I design and ship.</p>
+            </div>
+
+            <div class="track-summary" aria-label="Core engineering tracks">
+                <div class="track-item">
+                    <span class="track-index">01</span>
+                    <div>
+                        <strong>Financial infrastructure</strong>
+                        <span>Trading, execution, market data, wallets, settlement</span>
+                    </div>
+                </div>
+                <div class="track-item">
+                    <span class="track-index">02</span>
+                    <div>
+                        <strong>Protocol infrastructure</strong>
+                        <span>Smart contracts, DeFi, tokenization, security</span>
+                    </div>
+                </div>
+                <div class="track-item">
+                    <span class="track-index">03</span>
+                    <div>
+                        <strong>Intelligent systems</strong>
+                        <span>Rust, real-time data, LLM/RAG, automation</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role-coverage-grid">
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">01</span><span class="role-domain">Blockchain systems</span></div>
+                    <h3>Principal / Senior Blockchain & Systems Engineer</h3>
+                    <p>Owns architecture through production across multi-chain protocols, backend infrastructure, data systems, and technical direction.</p>
+                    <div class="role-tags"><span>Distributed systems</span><span>Architecture</span><span>Multi-chain</span><span>Reliability</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">02</span><span class="role-domain">Financial infrastructure</span></div>
+                    <h3>Blockchain / Trading Systems Engineer</h3>
+                    <p>Fincruse and CruiseX work connects order workflows, matching, liquidity execution, wallet systems, market data, and settlement.</p>
+                    <div class="role-tags"><span>Order lifecycle</span><span>Matching engine</span><span>Market data</span><span>Settlement</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">03</span><span class="role-domain">Backend systems</span></div>
+                    <h3>Rust Systems / Backend Engineer</h3>
+                    <p>Systems-level Rust work is presented through async runtimes, P2P networking, concurrency, gRPC, WebAssembly, and performance-sensitive services.</p>
+                    <div class="role-tags"><span>Rust</span><span>Tokio</span><span>libp2p</span><span>Concurrency</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">04</span><span class="role-domain">Cloud backends</span></div>
+                    <h3>Senior Golang / Backend / Distributed Systems Engineer</h3>
+                    <p>Go now sits beside Node.js, TypeScript, APIs, ledgers, transaction processing, and microservice-ready backend architecture.</p>
+                    <div class="role-tags"><span>Go</span><span>REST / gRPC</span><span>Microservices</span><span>Event-driven</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">05</span><span class="role-domain">Protocol engineering</span></div>
+                    <h3>Smart Contract / Protocol Engineer</h3>
+                    <p>Solidity, Aiken, Plutus, Anchor, EVM, Solana, Cardano, tokenomics, liquidity, testing, and protocol design are central to the work.</p>
+                    <div class="role-tags"><span>Solidity</span><span>DeFi</span><span>Protocol design</span><span>Auditability</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">06</span><span class="role-domain">Market systems</span></div>
+                    <h3>Prediction Market / Trading Infrastructure Engineer</h3>
+                    <p>Assymetrix and Foreon demonstrate multi-venue normalization, probability intelligence, order books, oracles, disputes, and market lifecycle design.</p>
+                    <div class="role-tags"><span>Real-time data</span><span>Order books</span><span>Oracles</span><span>Market lifecycle</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">07</span><span class="role-domain">AI systems</span></div>
+                    <h3>AI / Agentic AI Engineer</h3>
+                    <p>Limix AI makes LLM integration, RAG, automated code workflows, error detection, testing, and intelligent market signals concrete.</p>
+                    <div class="role-tags"><span>LLM systems</span><span>RAG</span><span>Intelligent automation</span><span>ML signals</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">08</span><span class="role-domain">Digital assets</span></div>
+                    <h3>RWA / Tokenization / Digital Asset Engineer</h3>
+                    <p>GoldPesa, digital gold, asset ownership, physical-art bridging, tokenomics, and payment infrastructure provide the foundation for this lane.</p>
+                    <div class="role-tags"><span>Tokenization</span><span>Digital assets</span><span>Ownership</span><span>Settlement</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">09</span><span class="role-domain">Security engineering</span></div>
+                    <h3>Blockchain Security / Web3 Security Engineer</h3>
+                    <p>Security is expressed as an architectural concern: audits, multisig controls, VRF, oracle disputes, testing, access control, and secure state transitions.</p>
+                    <div class="role-tags"><span>Threat surfaces</span><span>Solidity security</span><span>Controls</span><span>Testing</span></div>
+                </article>
+
+                <article class="role-card">
+                    <div class="role-card-topline"><span class="role-rank">10</span><span class="role-domain">Platform engineering</span></div>
+                    <h3>Integration / Cloud / QA Systems Engineer</h3>
+                    <p>Off-chain services, APIs, transaction builders, event watchers, deployment tooling, payment rails, and integration testing are the bridge into this role family.</p>
+                    <div class="role-tags"><span>API integration</span><span>Data validation</span><span>CI/CD</span><span>Observability</span></div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Experience</h2>
-                <p class="section-subtitle">My professional journey in blockchain and technology</p>
+                <p class="section-subtitle">End-to-end ownership across protocols, financial infrastructure, trading systems, and AI-enabled tooling</p>
             </div>
             <div class="timeline">
                 <div class="timeline-item contract-item">
@@ -518,6 +681,8 @@
                             <span class="tech">Market Signals</span>
                             <span class="tech">ML Forecasting</span>
                             <span class="tech">RAG</span>
+                            <span class="tech">Real-Time Data</span>
+                            <span class="tech">Event Normalization</span>
                         </div>
                     </div>
                 </div>
@@ -552,6 +717,9 @@
                             <span class="tech">PostgreSQL</span>
                             <span class="tech">Fireblocks</span>
                             <span class="tech">Redis</span>
+                            <span class="tech">Order Lifecycle</span>
+                            <span class="tech">Settlement</span>
+                            <span class="tech">Reconciliation</span>
                         </div>
                     </div>
                 </div>
@@ -586,6 +754,8 @@
                              <span class="tech">CertiK</span>
                              <span class="tech">AI DeFi</span>
                              <span class="tech">Tokenomics</span>
+                             <span class="tech">Liquidity Systems</span>
+                             <span class="tech">Security Controls</span>
                          </div>
                      </div>
                  </div>
@@ -618,8 +788,9 @@
                             <span class="tech">Oracle</span>
                             <span class="tech">Dispute Resolution</span>
                             <span class="tech">Off-chain Services</span>
-                            <span class="tech">Testing</span>
-                            <span class="tech">Security</span>
+                             <span class="tech">Testing</span>
+                             <span class="tech">Security</span>
+                             <span class="tech">Market Lifecycle</span>
                         </div>
                     </div>
                 </div>
@@ -1120,6 +1291,48 @@
                     </div>
                 </div>
 
+                <div class="project-card assymetrix-card" data-category="Markets,AI,Trading">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="category-badge">AI Market Intelligence</div>
+                        <h3>Assymetrix</h3>
+                        <p>Multi-venue prediction-market intelligence platform combining real-time ingestion, event normalization, ML forecasting, and LLM/RAG-assisted signal synthesis for probability, liquidity, and arbitrage analysis.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Real-Time Data</span>
+                            <span class="tech-tag">ML Forecasting</span>
+                            <span class="tech-tag">LLM / RAG</span>
+                            <span class="tech-tag">Market Signals</span>
+                            <span class="tech-tag">Data Pipelines</span>
+                        </div>
+                        <div class="project-links">
+                            <div class="project-metric"><span class="metric">Architecture & Product</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fincruse-project-card" data-category="Trading,Markets">
+                    <div class="project-image">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="category-badge">Exchange & Financial Infrastructure</div>
+                        <h3>Fincruse / CruiseX</h3>
+                        <p>Digital banking and exchange infrastructure spanning payment rails, wallet and ledger services, order workflows, matching, liquidity execution, blockchain integrations, market data, and atomic settlement.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Order Lifecycle</span>
+                            <span class="tech-tag">Settlement</span>
+                        </div>
+                        <div class="project-links">
+                            <div class="project-metric"><span class="metric">Backend Architecture</span></div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="project-card streamnft-card" data-category="NFT-Fi,Collateral">
                     <div class="project-image">
                         <i class="fas fa-film"></i>
@@ -1255,12 +1468,12 @@
                 </p>
                 <div class="writing-stats">
                     <div class="stat-item">
-                        <span class="stat-number">25+</span>
-                        <span class="stat-label">Deep-Dive Articles</span>
+                        <span class="stat-number">9</span>
+                        <span class="stat-label">Articles Indexed Here</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">700+</span>
-                        <span class="stat-label">Developer Reads</span>
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Published Articles</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">8</span>
@@ -1291,9 +1504,17 @@
     <section id="blockchains" class="blockchains">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Blockchain Networks & Specializations</h2>
-                <p class="section-subtitle">My expertise across multiple blockchain ecosystems and protocols</p>
+                <h2 class="section-title">Blockchain, AI & Backend Systems</h2>
+                <p class="section-subtitle">A balanced engineering profile: blockchain remains the foundation, with AI and production backend systems extending the platform layer.</p>
             </div>
+            <div class="specialization-group specialization-group-blockchain">
+                <div class="specialization-group-heading">
+                    <span class="specialization-index">01</span>
+                    <div>
+                        <h3>Blockchain Networks & Protocols</h3>
+                        <p>Multi-chain infrastructure, smart contracts, DeFi, interoperability, and protocol design.</p>
+                    </div>
+                </div>
             <div class="blockchains-grid">
                 <div class="chain-card ethereum-chain">
                     <div class="chain-icon">
@@ -1412,6 +1633,67 @@
                     </div>
                 </div>
             </div>
+            </div>
+
+            <div class="specialization-group specialization-group-ai">
+                <div class="specialization-group-heading">
+                    <span class="specialization-index">02</span>
+                    <div>
+                        <h3>AI & Intelligent Automation</h3>
+                        <p>Production-oriented AI systems that connect models, context, tools, and real-time domain data.</p>
+                    </div>
+                </div>
+                <div class="specialization-grid">
+                    <article class="chain-card">
+                        <div class="chain-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Agent Workflows</h3>
+                        <p>Tool-using agents, orchestration, context management, guarded execution, and multi-step automation.</p>
+                        <div class="chain-specs"><span class="spec">Agentic AI</span><span class="spec">Tool Use</span><span class="spec">Workflows</span></div>
+                    </article>
+                    <article class="chain-card">
+                        <div class="chain-icon"><i class="fas fa-database"></i></div>
+                        <h3>RAG & Data Intelligence</h3>
+                        <p>Retrieval-augmented systems, vector search, semantic context, data normalization, and intelligence layers.</p>
+                        <div class="chain-specs"><span class="spec">RAG</span><span class="spec">Vector Search</span><span class="spec">Pipelines</span></div>
+                    </article>
+                    <article class="chain-card">
+                        <div class="chain-icon"><i class="fas fa-cubes"></i></div>
+                        <h3>AI-Native SaaS</h3>
+                        <p>Developer platforms and SaaS products that turn LLM capabilities into dependable product workflows.</p>
+                        <div class="chain-specs"><span class="spec">LLM Products</span><span class="spec">SaaS</span><span class="spec">Evaluation</span></div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="specialization-group specialization-group-backend">
+                <div class="specialization-group-heading">
+                    <span class="specialization-index">03</span>
+                    <div>
+                        <h3>Backend & Platform Engineering</h3>
+                        <p>High-throughput services and delivery foundations for financial, Web3, and AI products.</p>
+                    </div>
+                </div>
+                <div class="specialization-grid">
+                    <article class="chain-card">
+                        <div class="chain-icon"><i class="fas fa-server"></i></div>
+                        <h3>Distributed Backends</h3>
+                        <p>Rust, Go, Node.js, APIs, asynchronous services, microservice boundaries, and event-driven state.</p>
+                        <div class="chain-specs"><span class="spec">Rust</span><span class="spec">Go</span><span class="spec">Node.js</span></div>
+                    </article>
+                    <article class="chain-card">
+                        <div class="chain-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Real-Time Financial Systems</h3>
+                        <p>Market data, execution, order books, wallets, ledgers, settlement, and reconciliation workflows.</p>
+                        <div class="chain-specs"><span class="spec">Trading</span><span class="spec">Settlement</span><span class="spec">Market Data</span></div>
+                    </article>
+                    <article class="chain-card">
+                        <div class="chain-icon"><i class="fas fa-shield-halved"></i></div>
+                        <h3>Production Reliability</h3>
+                        <p>Containerized delivery, CI/CD, integration testing, observability, security controls, and operational readiness.</p>
+                        <div class="chain-specs"><span class="spec">Docker</span><span class="spec">Kubernetes</span><span class="spec">Observability</span></div>
+                    </article>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -1420,7 +1702,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Skills & Technologies</h2>
-                <p class="section-subtitle">My technical expertise across blockchain and development</p>
+                <p class="section-subtitle">My technical expertise across blockchain, AI, backend systems, and production delivery</p>
             </div>
             <div class="skills-content">
                 <div class="skills-category">
@@ -1519,6 +1801,92 @@
                     </div>
                 </div>
 
+                <div class="skills-category skills-category-rust">
+                    <h3><i class="fab fa-rust"></i> Rust & Systems Engineering</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <span class="skill-name">Systems Programming</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="92"></div>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <span class="skill-name">P2P Networking (libp2p)</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <span class="skill-name">Tokio (Async Runtime)</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="88"></div>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <span class="skill-name">Actix / Axum</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shuffle"></i>
+                            </div>
+                            <span class="skill-name">Concurrency & Multithreading</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span class="skill-name">WebAssembly (Wasm)</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="78"></div>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-satellite-dish"></i>
+                            </div>
+                            <span class="skill-name">gRPC & Protocol Buffers</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="82"></div>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <span class="skill-name">Distributed Algorithms</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="skills-category">
                     <h3>Programming Languages</h3>
                     <div class="skills-grid">
@@ -1538,8 +1906,8 @@
                             </div>
                             <span class="skill-name">Rust</span>
                             <div class="skill-level">
-                                <div class="skill-bar" data-level="85"></div>
-                                <span class="skill-percentage">85%</span>
+                                <div class="skill-bar" data-level="92"></div>
+                                <span class="skill-percentage">92%</span>
                             </div>
                         </div>
                         <div class="skill-item">
@@ -1921,6 +2289,78 @@
                     </div>
                 </div>
 
+                <div class="skills-category skills-category-markets">
+                    <h3><i class="fas fa-chart-line"></i> Financial & Market Systems</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-exchange-alt"></i></div>
+                            <span class="skill-name">Order Lifecycle & Execution</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="90"></div><span class="skill-percentage">90%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-book-open"></i></div>
+                            <span class="skill-name">Market Data & Order Books</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="88"></div><span class="skill-percentage">88%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-wallet"></i></div>
+                            <span class="skill-name">Wallets, Custody & Ledgers</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="88"></div><span class="skill-percentage">88%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-scale-balanced"></i></div>
+                            <span class="skill-name">Settlement & Reconciliation</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="85"></div><span class="skill-percentage">85%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span class="skill-name">Real-Time Data Pipelines</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="88"></div><span class="skill-percentage">88%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-chart-pie"></i></div>
+                            <span class="skill-name">Prediction Markets & Liquidity</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="90"></div><span class="skill-percentage">90%</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category skills-category-platform">
+                    <h3><i class="fas fa-cloud"></i> Production Platform & Quality</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <span class="skill-name">Docker & Kubernetes</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="82"></div><span class="skill-percentage">82%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                            <span class="skill-name">AWS / GCP Cloud Infrastructure</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="80"></div><span class="skill-percentage">80%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-gears"></i></div>
+                            <span class="skill-name">CI/CD & Infrastructure as Code</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="80"></div><span class="skill-percentage">80%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-wave-square"></i></div>
+                            <span class="skill-name">Observability & Reliability</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="78"></div><span class="skill-percentage">78%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-vial"></i></div>
+                            <span class="skill-name">Integration & API Testing</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="88"></div><span class="skill-percentage">88%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-table-list"></i></div>
+                            <span class="skill-name">SQL & Data Validation</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="85"></div><span class="skill-percentage">85%</span></div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="skills-category">
                     <h3>AI & Machine Learning</h3>
                     <div class="skills-grid">
@@ -1953,6 +2393,21 @@
                                 <div class="skill-bar" data-level="80"></div>
                                 <span class="skill-percentage">80%</span>
                             </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-diagram-project"></i></div>
+                            <span class="skill-name">Agent Orchestration & Tool Use</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="82"></div><span class="skill-percentage">82%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                            <span class="skill-name">AI-Native SaaS Applications</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="82"></div><span class="skill-percentage">82%</span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-shield-halved"></i></div>
+                            <span class="skill-name">Agent Evaluation & Guardrails</span>
+                            <div class="skill-level"><div class="skill-bar" data-level="78"></div><span class="skill-percentage">78%</span></div>
                         </div>
                     </div>
                 </div>

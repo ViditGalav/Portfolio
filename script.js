@@ -926,7 +926,7 @@ function createCompactArticleTile(article) {
     tile.innerHTML = `
         <div class="compact-tile-content">
             <h4 class="compact-tile-title">${article.title}</h4>
-            <a href="https://medium.com/@ViditWeb3?utm_source=portfolio&utm_medium=website&utm_campaign=writing" 
+            <a href="${article.url || 'https://medium.com/@ViditWeb3?utm_source=portfolio&utm_medium=website&utm_campaign=writing'}"
                class="compact-tile-link" 
                target="_blank" 
                rel="noopener noreferrer"
@@ -1027,10 +1027,10 @@ document.addEventListener('DOMContentLoaded', () => {
 console.log(`
 %c🚀 Welcome to Vidit Galav's Portfolio! 🚀
 %c
-%cBlockchain Developer & CTO
-%cExpert in Ethereum, Solana, and DeFi protocols
+%cPrincipal Blockchain, AI & Systems Engineer
+%cExpert in financial infrastructure, Rust backends, AI platforms, and Web3 protocols
 %c
-%cLet's build the future of Web3 together! 🌐
+%cLet's build the future of intelligent systems together! 🌐
 `, 
 'color: #6366f1; font-size: 20px; font-weight: bold;',
 '',
